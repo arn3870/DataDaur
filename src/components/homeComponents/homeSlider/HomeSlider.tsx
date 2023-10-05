@@ -49,7 +49,7 @@ export default function HomeSlider() {
             </span>
           </div>
         </div>
-        <div className="flex lg:flex-row md:flex-row sm:flex-col flex-wrap justify-between lg:px-[50px] mt-[50px] sm:mt-[30px] lg:mt-[100px]">
+        <div className="flex lg:flex-row md:flex-row sm:flex-col flex-wrap justify-between lg:px-[50px] mt-[50px] sm:mt-[30px] lg:mt-[100px] lg:mb-[161px]">
           <div className="flex flex-col items-center justify-center">
             <Image
               src={"./icons/mobile.svg"}
