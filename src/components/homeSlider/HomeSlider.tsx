@@ -1,30 +1,53 @@
 import { Space_Grotesk } from "next/font/google";
-import styles from "./home-slider.module.css";
 import Image from "next/image";
 
 const space_grotesk = Space_Grotesk({
   subsets: ["latin", "latin-ext"],
 });
+
 export default function HomeSlider() {
   return (
     <div className="flex font-normal">
       <div className={space_grotesk.className}>
-        <div className="text-[90px] text-center mt-[60px]">
+        <div className="text-center mt-[60px] sm:text-[28px] sm:px-[20px] md:px-[20px] md:text[40px] lg:text-[90px]">
           Empower your business with Generative Artificial Intelligence
         </div>
-        <div className="flex justify-center mt-[50px]">
+        <div className="flex justify-center mt-[50px] sm:text-sm md:text-lg lg:text-xl">
           <button
             style={{
-              borderRadius: "20px",
               border: "2px solid var(--Button-Stroke, #A265F0)",
               background:
                 "var(--Button-Filled--Gradient, linear-gradient(89deg, #3E2567 0.92%, #140769 98.29%))",
               boxShadow: "0px 4px 25px 0px #2F1C64",
             }}
-            className="px-[40px] py-[15px] rounded-[20px] color-white"
+            className="sm:px-[10px] md:px-[10px] lg:px-[40px] sm:py-[10px] md:py-[10px] lg:py-[15px] rounded-[20px] color-white"
           >
             Get Started
           </button>
+        </div>
+        <div className="flex flex-col sm:flex-row justify-center mt-[50px] sm:mt-[30px] lg:mt-[100px]">
+          <div className="flex items-center sm:mr-[15px] lg:mr-[50px]">
+            <Image
+              src={"./icons/sms.svg"}
+              alt="sms"
+              width={24}
+              height={24}
+            ></Image>
+            <span className="ml-[5px] sm:ml-[10px] lg:ml-[20px]">
+              Business@datadaur.com
+            </span>
+          </div>
+          <div className="flex items-center mt-[15px] sm:mt-0 sm:ml-[15px] lg:ml-[50px]">
+            <Image
+              src={"./icons/phone_icon.svg"}
+              alt="sms"
+              width={24}
+              height={24}
+            ></Image>
+            <span className="ml-[5px] sm:ml-[10px] lg:ml-[20px]">
+              +92 3213241221
+            </span>
+          </div>
         </div>
       </div>
     </div>
