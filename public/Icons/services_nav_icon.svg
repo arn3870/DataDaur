@@ -1,0 +1,16 @@
+<svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group 5186">
+<circle id="Ellipse 5" cx="18" cy="18" r="17.25" fill="url(#paint0_linear_106_8604)" stroke="url(#paint1_linear_106_8604)" stroke-width="1.5"/>
+<path id="Arrow 1" d="M9.77994 24.6291C9.3406 25.0684 9.3406 25.7807 9.77994 26.2201C10.2193 26.6594 10.9316 26.6594 11.3709 26.2201L9.77994 24.6291ZM26.5497 10.5753C26.5497 9.954 26.046 9.45032 25.4247 9.45032L15.2997 9.45032C14.6784 9.45032 14.1747 9.954 14.1747 10.5753C14.1747 11.1966 14.6784 11.7003 15.2997 11.7003H24.2997V20.7003C24.2997 21.3216 24.8034 21.8253 25.4247 21.8253C26.046 21.8253 26.5497 21.3216 26.5497 20.7003L26.5497 10.5753ZM11.3709 26.2201L26.2202 11.3708L24.6292 9.77982L9.77994 24.6291L11.3709 26.2201Z" fill="#CACACA"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_106_8604" x1="3.74902e-07" y1="18" x2="35.6976" y2="17.3288" gradientUnits="userSpaceOnUse">
+<stop stop-color="#3E2567"/>
+<stop offset="1" stop-color="#140769"/>
+</linearGradient>
+<linearGradient id="paint1_linear_106_8604" x1="2.68221e-07" y1="18" x2="36" y2="18" gradientUnits="userSpaceOnUse">
+<stop stop-color="#A265F0"/>
+<stop offset="1" stop-color="#1D0D7D"/>
+</linearGradient>
+</defs>
+</svg>

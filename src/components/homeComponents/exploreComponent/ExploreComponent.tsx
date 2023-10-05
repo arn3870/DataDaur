@@ -1,4 +1,4 @@
-import { Space_Grotesk } from "next/font/google";
+import { Space_Grotesk } from "@next/font/google";
 const space_grotesk = Space_Grotesk({
   subsets: ["latin", "latin-ext"],
 });
@@ -18,6 +18,19 @@ export default function ExploreComponent() {
                 Lorem ipsum dolor sit amet consectetur. Sollicitudin sem ac
                 consectetur nulla volutpat libero tortor nam tristique.
               </p>
+              <div className="flex mt-[50px] sm:text-sm md:text-lg lg:text-xl">
+                <button
+                  style={{
+                    border: "2px solid var(--Button-Stroke, #A265F0)",
+                    background:
+                      "var(--Button-Filled--Gradient, linear-gradient(89deg, #3E2567 0.92%, #140769 98.29%))",
+                    boxShadow: "0px 4px 25px 0px #2F1C64",
+                  }}
+                  className="sm:px-[10px] md:px-[10px] lg:px-[40px] sm:py-[10px] md:py-[10px] lg:py-[15px] rounded-[20px] color-white"
+                >
+                  Explore Project
+                </button>
+              </div>
             </div>
           </div>
           <div className="lg:w-[645px] md:w-[400px] sm:w-[300px]">
@@ -28,6 +41,19 @@ export default function ExploreComponent() {
                 Lorem ipsum dolor sit amet consectetur. Sollicitudin sem ac
                 consectetur nulla volutpat libero tortor nam tristique.
               </p>
+              <div className="flex mt-[50px] sm:text-sm md:text-lg lg:text-xl">
+                <button
+                  style={{
+                    border: "2px solid var(--Button-Stroke, #A265F0)",
+                    background:
+                      "var(--Button-Filled--Gradient, linear-gradient(89deg, #3E2567 0.92%, #140769 98.29%))",
+                    boxShadow: "0px 4px 25px 0px #2F1C64",
+                  }}
+                  className="sm:px-[10px] md:px-[10px] lg:px-[40px] sm:py-[10px] md:py-[10px] lg:py-[15px] rounded-[20px] color-white"
+                >
+                  Explore Project
+                </button>
+              </div>
             </div>
           </div>
         </div>
