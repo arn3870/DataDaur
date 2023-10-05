@@ -1,7 +1,10 @@
-import React from 'react'
+import React from "react";
+import HomeSlider from "@/components/homeSlider/HomeSlider";
 
 export default function index() {
   return (
-    <div>index</div>
-  )
+    <div>
+      <HomeSlider></HomeSlider>
+    </div>
+  );
 }

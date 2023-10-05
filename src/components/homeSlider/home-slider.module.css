@@ -1,0 +1,23 @@
+.container{
+    height: 100vh;
+}
+.gradient-background {
+    position: relative;
+  }
+  
+  .gradient-background::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%; /* Adjust as needed */
+    height: 100%; /* Adjust as needed */
+    background: rgb(224, 78, 78);
+    background: radial-gradient(
+      circle,
+      rgba(224, 78, 78, 1) 0%,
+      rgba(209, 123, 195, 1) 100%
+    );
+    z-index: -1; /* Place the gradient behind the content */
+  }
+  
