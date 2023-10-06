@@ -4,6 +4,7 @@ import ExploreComponent from "@/components/homeComponents/exploreComponent/Explo
 import WelcomeNote from "@/components/homeComponents/welcomeNote/WelcomeNote";
 import OfferedServices from "@/components/homeComponents/servicesComponent/OfferedServices";
 import ReviewSlider from "@/components/homeComponents/reviewSlider/ReviewSlider";
+import ElevateBusiness from "@/components/homeComponents/elevateBusiness/ElevateBusiness";
 
 export default function index() {
   return (
@@ -13,6 +14,7 @@ export default function index() {
       <WelcomeNote></WelcomeNote>
       <OfferedServices></OfferedServices>
       <ReviewSlider></ReviewSlider>
+      <ElevateBusiness></ElevateBusiness>
     </div>
   );
 }
