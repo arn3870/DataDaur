@@ -8,12 +8,13 @@ export default function HomeSlider() {
   return (
     <div className="flex font-normal">
       <div
-        className="absolute inset-0 z-0"
+        className="absolute inset-0"
         style={{
           background:
             "radial-gradient(circle at top left, transparent 50%, rgba(209,123,195,1) 100%, rgba(224, 78, 78, 1) 50%, rgba(100, 26, 135, 1) 100%)",
           filter: "blur(147px)",
           clipPath: "polygon(0 0, 100% 0, 100% 100%, 0% 100%)",
+          zIndex: "-99"
         }}
       ></div>
       <div className={space_grotesk.className}>

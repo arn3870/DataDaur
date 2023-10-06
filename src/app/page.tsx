@@ -1,19 +1,35 @@
-import Image from "next/image";
+import React from "react";
+import HomeSlider from "@/components/homeComponents/homeSlider/HomeSlider";
+import ExploreComponent from "@/components/homeComponents/exploreComponent/ExploreComponent";
+import WelcomeNote from "@/components/homeComponents/welcomeNote/WelcomeNote";
+import OfferedServices from "@/components/homeComponents/servicesComponent/OfferedServices";
+import ReviewSlider from "@/components/homeComponents/reviewSlider/ReviewSlider";
+import ElevateBusiness from "@/components/homeComponents/elevateBusiness/ElevateBusiness";
 
-export default function Header() {
+const cardContent = [
+  {
+    title: "The Matriach",
+    description:
+      "Lorem ipsum dolor sit amet consectetur. Sollicitudin sem ac consectetur nulla volutpat libero tortor nam tristique.",
+    buttonLabel: "Explore Project",
+  },
+  {
+    title: "My e-assistant",
+    description:
+      "Lorem ipsum dolor sit amet consectetur. Sollicitudin sem ac consectetur nulla volutpat libero tortor nam tristique.",
+    buttonLabel: "Explore Project",
+  },
+];
+
+export default function index() {
   return (
-    <div className="relative container md:flex-[9] sm:flex-[6] 2xl:flex-[6] 3xl:flex-1 4xl:flex-[0.85] w-full p-0 m-0 overflow-auto">
-      <div className="topbar w-full flex bg-transparent items-center justify-between p-4 shadow-md pt-[35px] pl-[50px]">
-        <Image src="/DataDaur.svg" alt="datadaur" width={132} height={40} />
-        <div>Home</div>
-        <div>Portfolio</div>
-        <div>About</div>
-        <div>offers</div>
-        <div>Testimonoals</div>
-        <div>Blogs</div>
-        <div>Jobs</div>
-        <div>Contact</div>
-      </div>
+    <div>
+      <HomeSlider></HomeSlider>
+      <ExploreComponent cardContent={cardContent}></ExploreComponent>
+      <WelcomeNote></WelcomeNote>
+      <OfferedServices></OfferedServices>
+      <ReviewSlider></ReviewSlider>
+      <ElevateBusiness></ElevateBusiness>
     </div>
   );
 }
