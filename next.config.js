@@ -1,4 +1,8 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+  images: {
+    domains: ["https://data-daur-web.vercel.app/"],
+  },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
