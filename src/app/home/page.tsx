@@ -6,11 +6,26 @@ import OfferedServices from "@/components/homeComponents/servicesComponent/Offer
 import ReviewSlider from "@/components/homeComponents/reviewSlider/ReviewSlider";
 import ElevateBusiness from "@/components/homeComponents/elevateBusiness/ElevateBusiness";
 
+const cardContent = [
+  {
+    title: "The Matriach",
+    description:
+      "Lorem ipsum dolor sit amet consectetur. Sollicitudin sem ac consectetur nulla volutpat libero tortor nam tristique.",
+    buttonLabel: "Explore Project",
+  },
+  {
+    title: "My e-assistant",
+    description:
+      "Lorem ipsum dolor sit amet consectetur. Sollicitudin sem ac consectetur nulla volutpat libero tortor nam tristique.",
+    buttonLabel: "Explore Project",
+  },
+];
+
 export default function index() {
   return (
     <div>
       <HomeSlider></HomeSlider>
-      <ExploreComponent></ExploreComponent>
+      <ExploreComponent cardContent={cardContent}></ExploreComponent>
       <WelcomeNote></WelcomeNote>
       <OfferedServices></OfferedServices>
       <ReviewSlider></ReviewSlider>
