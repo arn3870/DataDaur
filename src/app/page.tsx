@@ -21,11 +21,13 @@ const cardContent = [
   },
 ];
 
+const heading = "Explore What We Have Done"
+
 export default function index() {
   return (
     <div>
       <HomeSlider></HomeSlider>
-      <ExploreComponent cardContent={cardContent}></ExploreComponent>
+      <ExploreComponent cardContent={cardContent} componentHeading={heading}></ExploreComponent>
       <WelcomeNote></WelcomeNote>
       <OfferedServices></OfferedServices>
       <ReviewSlider></ReviewSlider>
