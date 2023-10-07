@@ -28,7 +28,7 @@ export default function Header() {
           <Link href="/">Jobs</Link>
         </div>
         <div>
-          <Link href="/">Contact</Link>
+          <Link href="/contact">Contact</Link>
         </div>
       </div>
     </div>
