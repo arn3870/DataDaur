@@ -19,7 +19,7 @@ export default function Header() {
           <Link href="/">Offers</Link>
         </div>
         <div>
-          <Link href="/">Testimonials</Link>
+          <Link href="/testimonials">Testimonials</Link>
         </div>
         <div>
           <Link href="/">Blogs</Link>
