@@ -39,7 +39,7 @@ const cardContent = [
     buttonLabel: "Explore Project",
   },
 ];
-const heading = "Explore What We Have Done";
+const heading = "Our Premium Services";
 export default function index() {
   return (
     <div>

@@ -13,22 +13,21 @@ type CardContent = {
 
 type ExploreComponentProps = {
   cardContent: CardContent[];
+  componentHeading: string;
 };
 export default function ExploreComponent({
   cardContent,
+  componentHeading,
 }: ExploreComponentProps) {
   return (
     <div className={space_grotesk.className} style={{ background: "#0F0F13" }}>
       <div className="text-[48px] lg:py-[100px] md:py-[50px] sm:py-[20px]">
         <div className=" text-center lg:pb-[60px] text-[#E4E4E4]">
-          Explore What We Have Done
+          {componentHeading}
         </div>
         <div className="flex flex-row justify-center flex-wrap text-[#CACACA] gap-5">
           {cardContent.map((card, index) => (
-            <div
-              key={index}
-              className="lg:w-[645px] md:w-[400px] sm:w-[300px]"
-            >
+            <div key={index} className="lg:w-[645px] md:w-[400px] sm:w-[300px]">
               <div className="lg:w-[645px] md:w-[400px] sm:w-[300px] lg:h-[645px] md:h-[400px] sm:h-[300px] bg-[#1C1928] rounded-[20px]"></div>
               <div className="mt-[30px]">
                 <h1 className="text-[25px]">{card.title}</h1>
