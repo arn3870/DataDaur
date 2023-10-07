@@ -15,6 +15,16 @@ export default function Testimonials({
 }: TestimonialComponentProps) {
   return (
     <div className="py-[75px] px-[52px]">
+      <div
+        className="absolute inset-0"
+        style={{
+          background:
+            "radial-gradient(circle at top left, transparent 50%, rgba(209,123,195,1) 100%, rgba(224, 78, 78, 1) 50%, rgba(100, 26, 135, 1) 100%)",
+          filter: "blur(147px)",
+          clipPath: "circle(50% at 50% 50%)",
+          zIndex: "-99",
+        }}
+      ></div>
       <div className="flex justify-center">
         <div className="text-center text-[#E4E4E4] text-[48px] lg:w-[50%]">
           Read what our customers say about us
