@@ -44,7 +44,6 @@ export default function ContactForm() {
                 <div className="flex flex-col w-full">
                   <label className="pb-[4px]">What is your email?</label>
                   <input
-                    rows={10}
                     className="pl-[10px] lg:mt-[15px] focus:border-[#C5CBDC] focus:border-[2px] outline-none focus:outline-none py-[20px] px-[20px] border-[2px] border-[#C5CBDC] rounded-[7px] text-[12px] sm:text-[14px]"
                     id="review_actions"
                     style={{
