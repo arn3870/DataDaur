@@ -1,3 +1,5 @@
+import smsIcon from "../../../../public/Icons/sms.svg";
+import phoneIcon from "../../../../public/Icons/phone_icon.svg";
 import Image from "next/image";
 export default function Footer() {
   return (
@@ -10,7 +12,7 @@ export default function Footer() {
           </div>
           <div className="flex items-center">
             <Image
-              src={"./icons/sms.svg"}
+              src={smsIcon}
               alt="sms"
               width={24}
               height={24}
@@ -21,7 +23,7 @@ export default function Footer() {
           </div>
           <div className="flex items-center">
             <Image
-              src={"./icons/phone_icon.svg"}
+              src={phoneIcon}
               alt="sms"
               width={24}
               height={24}
