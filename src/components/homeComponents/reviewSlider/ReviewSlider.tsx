@@ -46,7 +46,7 @@ export default () => {
   return (
     <div className="py-[75px]">
       <div className="flex justify-center">
-        <div className="text-center text-[#E4E4E4] text-[48px] lg:w-[50%]">
+        <div className="text-center text-[#E4E4E4] text-[20px] md:text-[48px] lg:text-[48px] lg:w-[50%]">
           Our Clients' Experiences with Exceptional IT Services
         </div>
       </div>

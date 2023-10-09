@@ -15,10 +15,10 @@ export default function OfferedServices() {
   ];
   return (
     <div className={space_grotesk.className} style={{ background: "#0F0F13" }}>
-      <div className="flex flex-col px-[50px] py-[100px]">
+      <div className="flex flex-col px-[20px] md:px-[40px] lg:px-[50px] py-[20px] md:py-[80px] lg:py-[100px]">
         <div className="text-center mb-[60px] text-[#E4E4E4]">
-          <h1 className="text-[48px]">Services We’re Offering</h1>
-          <p className="text-[18px] lg:mx-[300px]">
+          <h1 className="text-[20px] md:text-[48px] lg:text-[48px]">Services We’re Offering</h1>
+          <p className="text-[12px] md:text[16px] lg:text-[18px] lg:mx-[300px]">
             Lorem ipsum dolor sit amet consectetur. Sollicitudin sem ac
             consectetur nulla volutpat libero tortor nam tristique.
           </p>

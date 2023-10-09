@@ -5,7 +5,7 @@ const space_grotesk = Space_Grotesk({
 export default function WelcomeNote() {
   return (
     <div className={space_grotesk.className}>
-      <p className=" flex flex-wrap text-[36px] text-[#CACACA] font-normal leading-14 lg:px-[100px] lg:py-[50px]">
+      <p className=" flex flex-wrap text-[14px] md:text-[28px] lg:text-[36px] text-[#CACACA] font-normal leading-14 px-[20px] md:px-[100px] lg:px-[100px] py-[20px] md:py-[40px] lg:py-[50px]">
         Welcome to Wodatoki, an innovative design and development agency
         committed to transforming ideas into reality. Established in 2021,
         Wodatoki has rapidly become a leading force in the creative industry,
