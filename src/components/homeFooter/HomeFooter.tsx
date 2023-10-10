@@ -5,7 +5,7 @@ export default function HomeFooter() {
   return (
     <div className="px-[20px] md:px-[30px] lg:px-[30px] pt-[20px] md:pt-[60px] lg:pt-[60px] mb-[10px] lg:mb-[20px] md:mb-[20px]">
       <div className="flex flex-col md:flex-row lg:flex-row justify-between mb-[20px]">
-        <div className="flex justify-start flex-col gap-[5px] md:gap-[20px] lg:gap-[20px] w-full md:w-[15%] lg:w-[15%] text-[#F2F2F2] lg:pr-[15px]">
+        <div className="flex justify-start flex-col gap-[5px] md:gap-[20px] lg:gap-[20px] w-full md:w-[25%] lg:w-[15%] text-[#F2F2F2] lg:pr-[15px]">
           <Image src="/DataDaur.svg" alt="datadaur" width={132} height={40} />
           <div className="text-[10px] md:text-[14px] lg:text-[14px] font-normal">
             East Rd. CB1, Cambridge, United Kingdom
