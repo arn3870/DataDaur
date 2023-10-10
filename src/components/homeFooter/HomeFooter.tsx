@@ -1,44 +1,48 @@
+import smsIcon from "../../../public/Icons/sms.svg";
+import phoneIcon from "../../../public/Icons/phone_icon.svg";
 import Image from "next/image";
 export default function HomeFooter() {
   return (
-    <div className="lg:px-[30px] md:px-[30px] lg:pt-[60px] md:pt-[60px] lg:mb-[20px] md:mb-[20px]">
-      <div className="flex flex-row justify-between flex-wrap">
-        <div className="flex justify-start flex-col gap-[20px] w-[15%] text-[#F2F2F2] lg:pr-[15px]">
+    <div className="px-[20px] md:px-[30px] lg:px-[30px] pt-[20px] md:pt-[60px] lg:pt-[60px] mb-[10px] lg:mb-[20px] md:mb-[20px]">
+      <div className="flex flex-col md:flex-row lg:flex-row justify-between mb-[20px]">
+        <div className="flex justify-start flex-col gap-[5px] md:gap-[20px] lg:gap-[20px] w-full md:w-[15%] lg:w-[15%] text-[#F2F2F2] lg:pr-[15px]">
           <Image src="/DataDaur.svg" alt="datadaur" width={132} height={40} />
-          <div className="text-[14px] font-normal">
+          <div className="text-[10px] md:text-[14px] lg:text-[14px] font-normal">
             East Rd. CB1, Cambridge, United Kingdom
           </div>
           <div className="flex items-center">
             <Image
-              src={"./icons/sms.svg"}
+              src={smsIcon}
               alt="sms"
               width={24}
               height={24}
+              className="w-[14px] h-[14px] md:w-[24px] lg:w-[24px] md:h-[24px] lg:h-[24px]"
             ></Image>
-            <span className="ml-[5px] sm:ml-[2px] lg:ml-[5px] text-[12px]">
+            <span className="ml-[2px] md:ml-[5px] lg:ml-[5px] text-[10px] md:text-[17px] lg:text-[17px]">
               Business@datadaur.com
             </span>
           </div>
           <div className="flex items-center">
             <Image
-              src={"./icons/phone_icon.svg"}
+              src={phoneIcon}
               alt="sms"
               width={24}
               height={24}
+              className="w-[14px] h-[14px] md:w-[24px] lg:w-[24px] md:h-[24px] lg:h-[24px]"
             ></Image>
-            <span className="ml-[5px] sm:ml-[2px] lg:ml-[5px] text-[12px]">
+            <span className="ml-[2px] md:ml-[5px] lg:ml-[5px] text-[10px] md:text-[17px] lg:text-[17px]">
               +92 3213241221
             </span>
           </div>
         </div>
         <div className="flex flex-col">
-          <div className="flex flex-row text-[14px] gap-10 mb-[30px]">
+          <div className="flex flex-row text-[10px] md:text-[14px] lg:text-[14px] gap-x-[10px] md:gap-[10px] lg:gap-[10px] mb-[10px] md:mb-[30px] lg:mb-[30px]">
             <div>Terms & Conditions</div>
             <div>Privacy Policy</div>
             <div>Affiliate Program</div>
           </div>
-          <div className="flex flex-row justify-end gap-5">
-            <div>
+          <div className="flex flex-row justify-between md:justify-end lg:justify-end gap-5">
+            <div className="w-[16px] md:w-[24px] lg:w-[24px] h-[16px] md:h-[24px] lg:h-[24px]">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -52,7 +56,7 @@ export default function HomeFooter() {
                 />
               </svg>
             </div>
-            <div>
+            <div className="w-[16px] md:w-[24px] lg:w-[24px] h-[16px] md:h-[24px] lg:h-[24px]">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -66,7 +70,7 @@ export default function HomeFooter() {
                 />
               </svg>
             </div>
-            <div>
+            <div className="w-[16px] md:w-[24px] lg:w-[24px] h-[16px] md:h-[24px] lg:h-[24px]">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -80,7 +84,7 @@ export default function HomeFooter() {
                 />
               </svg>
             </div>
-            <div>
+            <div className="w-[16px] md:w-[24px] lg:w-[24px] h-[16px] md:h-[24px] lg:h-[24px]">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -94,7 +98,7 @@ export default function HomeFooter() {
                 />
               </svg>
             </div>
-            <div>
+            <div className="w-[16px] md:w-[24px] lg:w-[24px] h-[16px] md:h-[24px] lg:h-[24px]">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -111,7 +115,7 @@ export default function HomeFooter() {
           </div>
         </div>
       </div>
-      <div className="text-center text-[12px]">
+      <div className="text-center text-[10px] md:text-[12px] lg:text-[12px]">
         @ Datadaur 2023. All rights reserved.
       </div>
     </div>
