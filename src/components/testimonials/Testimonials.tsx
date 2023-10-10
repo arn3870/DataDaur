@@ -26,7 +26,7 @@ export default function Testimonials({
         }}
       ></div>
       <div className="flex justify-center">
-        <div className="text-center text-[#E4E4E4] text-[48px] lg:w-[50%]">
+        <div className="text-center text-[#E4E4E4] text-[28px] md:text-[48px] lg:text-[48px] lg:w-[50%]">
           Read what our customers say about us
         </div>
       </div>
@@ -34,14 +34,16 @@ export default function Testimonials({
         {cardContent.map((slide, index) => (
           <div
             key={index}
-            className="rounded-[20px] px-[30px] py-[30px] text-center lg:min-h-[426px]"
+            className="rounded-[20px] px-[10px] md:px-[20px] lg:px-[30px] py-[30px] text-center lg:min-h-[426px]"
             style={{
               background:
                 "linear-gradient(143deg, rgba(255, 255, 255, 0.06) -0.03%, rgba(255, 255, 255, 0.00) 100.03%)",
               border: "1px solid var(--Button-Stroke, #A265F0)",
             }}
           >
-            <p className="text-[16px]">{slide.content}</p>
+            <p className="text-[10px] md:text-[12px] lg:text-[16px]">
+              {slide.content}
+            </p>
             <div className="flex justify-center mt-[30px]">
               <div className="flex flex-row items-center">
                 <div className="flex justify-center">
