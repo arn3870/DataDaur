@@ -86,7 +86,9 @@ export default () => {
                   width={80}
                   height={80}
                 ></Image> */}
-                  <p className="text-[8px] md:text-[12px] lg:text-[16px]">{slide.content}</p>
+                  <p className="text-[8px] md:text-[12px] lg:text-[16px] bg-transparent">
+                    {slide.content}
+                  </p>
                   <div className="flex justify-center mt-[30px]">
                     <div className="flex flex-col md:flex-row lg:flex-row">
                       <div className="flex justify-center">
@@ -99,10 +101,32 @@ export default () => {
                         />
                       </div>
                       <div className="flex flex-col sm:ml-[5px] md:ml-[15px] lg:ml-[15px] justify-center items-center">
-                        <div className="text-[14px] md:text-[18px] lg:text-[28px]">{slide.name}</div>
-                        <div className="text-[10px] md:text-[16px] lg:text-[16px]">{slide.designation}</div>
+                        <div className="text-[14px] md:text-[18px] lg:text-[28px]">
+                          {slide.name}
+                        </div>
+                        <div className="text-[10px] md:text-[16px] lg:text-[16px]">
+                          {slide.designation}
+                        </div>
                       </div>
                     </div>
+                  </div>
+                  {/* Top-left quote */}
+                  <div className="absolute top-0 left-0 mt-[30px] ml-[30px] w-[20px] md:w-[40px] lg:w-[50px] h-[20px] md:h-[40px] lg:h-[50px]">
+                    <Image
+                      src={qouteLeft} // Make sure to provide the correct path to your image
+                      alt="quote"
+                      width={50}
+                      height={50}
+                    />
+                  </div>
+                  {/* Bottom-right quote */}
+                  <div className="absolute bottom-0 right-0 mb-[30px] mr-[30px] w-[20px] md:w-[40px] lg:w-[50px] h-[20px] md:h-[40px] lg:h-[50px] rotate-180">
+                    <Image
+                      src={qouteLeft} // Make sure to provide the correct path to your image
+                      alt="quote"
+                      width={50}
+                      height={50}
+                    />
                   </div>
                 </div>
               )}
