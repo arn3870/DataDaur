@@ -25,7 +25,7 @@ export default function ExploreComponent({
         <div className=" text-center pb-[30px] md:pb-[40px] lg:pb-[60px] text-[#E4E4E4]">
           {componentHeading}
         </div>
-        <div className="flex flex-col md:flex-col lg:flex-row items-center justify-center text-[#CACACA] gap-5">
+        <div className="flex flex-col md:flex-col lg:flex-row items-center justify-center text-[#CACACA] gap-5 flex-wrap">
           {cardContent.map((card, index) => (
             <div
               key={index}
