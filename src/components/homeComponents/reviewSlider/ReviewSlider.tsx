@@ -2,16 +2,23 @@
 import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Image from "next/image";
-
+import styles from "./CustomerReviewCarousel.module.css";
+import qouteLeft from "../../../../public/Icons/bxs_quote-left.svg";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 
-const paginationStyles = {
-  padding: "60px", // Add padding to the pagination
-};
+// const paginationStyles = {
+//   padding: "60px", // Add padding to the pagination
+//   "--swiper-pagination-color": "#FFBA08",
+//   "--swiper-pagination-bullet-inactive-color": "#999999",
+//   "--swiper-pagination-bullet-inactive-opacity": "1",
+//   "--swiper-pagination-bullet-size": "16px",
+//   "--swiper-pagination-bullet-horizontal-gap": "6px",
+//   "--swiper-pagination-bullet-active-width": "40px",
+// };
 export default () => {
   const slides = [
     {
@@ -50,7 +57,7 @@ export default () => {
           Our Clients' Experiences with Exceptional IT Services
         </div>
       </div>
-      <div className="py-[60px] text-[#CACACA]">
+      <div className="text-[#CACACA]">
         <Swiper
           // install Swiper modules
           modules={[Navigation, Pagination, Scrollbar, A11y]}
@@ -61,56 +68,44 @@ export default () => {
           loop={true} // Infinite loop
           onSwiper={(swiper) => console.log(swiper.slides)}
           onSlideChange={() => console.log("slide change")}
-          style={paginationStyles}
-          onInit={(swiper) => {
-            const slides = swiper.slides;
-            slides.forEach((slide) => {
-              if (slide.classList.contains("swiper-slide-active")) {
-                // Active slide
-                slide.classList.add("scale-110");
-              } else if (
-                slide.classList.contains("swiper-slide-prev") ||
-                slide.classList.contains("swiper-slide-next")
-              ) {
-                // Previous and Next slides
-                slide.classList.add("border", "text-gray-400", "opacity-50");
-              }
-            });
-          }}
+          // style={paginationStyles}
         >
           {slides.map((slide, index) => (
             <SwiperSlide key={index}>
-              <div
-                className="h-[300px] w-[600px] rounded-[20px] py-[80px] px-[40px]"
-                style={{
-                  border: "2px solid var(--Button-Stroke, #A265F0)",
-                }}
-              >
-                {/* <Image
+              {({ isActive }) => (
+                <div
+                  className={` ${
+                    isActive
+                      ? `${styles.activeSlide}`
+                      : `${styles.nonActiveSlide}`
+                  } h-fit w-[150px] md:w-full lg:w-full rounded-[20px] my-[60px] py-[15px] md:py-[40px] lg:py-[80px] px-[10px] md:px-[20px] lg:px-[40px]`}
+                >
+                  {/* <Image
                   src={"./bxs_qoute_left.svg"}
                   alt="inverted_comma"
                   width={80}
                   height={80}
                 ></Image> */}
-                <p className="text-[12px]">{slide.content}</p>
-                <div className="flex justify-center mt-[30px]">
-                  <div className="flex flex-row items-center">
-                    <div className="flex justify-center">
-                      <Image
-                        src={slide.image}
-                        alt="customer"
-                        className="rounded-[50%] h-[50px] bg-cover"
-                        width={50}
-                        height={80}
-                      />
-                    </div>
-                    <div className="flex flex-col ml-[15px]">
-                      <div className="font-[28px]">{slide.name}</div>
-                      <div className="font-[16px]">{slide.designation}</div>
+                  <p className="text-[8px] md:text-[12px] lg:text-[16px]">{slide.content}</p>
+                  <div className="flex justify-center mt-[30px]">
+                    <div className="flex flex-col md:flex-row lg:flex-row">
+                      <div className="flex justify-center">
+                        <Image
+                          src={slide.image}
+                          alt="customer"
+                          className="rounded-[50%] h-[50px] bg-cover"
+                          width={50}
+                          height={80}
+                        />
+                      </div>
+                      <div className="flex flex-col sm:ml-[5px] md:ml-[15px] lg:ml-[15px] justify-center items-center">
+                        <div className="text-[14px] md:text-[18px] lg:text-[28px]">{slide.name}</div>
+                        <div className="text-[10px] md:text-[16px] lg:text-[16px]">{slide.designation}</div>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
+              )}
             </SwiperSlide>
           ))}
         </Swiper>
