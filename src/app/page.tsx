@@ -33,7 +33,7 @@ export default function index() {
   return (
     <div>
       <HomeSlider></HomeSlider>
-      <ExploreComponent cardContent={cardContent} componentHeading={heading}></ExploreComponent>
+      <ExploreComponent cardContent={cardContent} componentHeading={heading}><></></ExploreComponent>
       <WelcomeNote></WelcomeNote>
       <OfferedServices></OfferedServices>
       <ReviewSlider></ReviewSlider>

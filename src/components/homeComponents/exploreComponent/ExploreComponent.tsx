@@ -1,5 +1,6 @@
 import { Space_Grotesk } from "next/font/google";
 import Image from "next/image";
+import { ReactNode } from "react";
 
 const space_grotesk = Space_Grotesk({
   subsets: ["latin", "latin-ext"],
@@ -14,18 +15,21 @@ type CardContent = {
 type ExploreComponentProps = {
   cardContent: CardContent[];
   componentHeading: string;
+  children: ReactNode;
 };
 export default function ExploreComponent({
   cardContent,
   componentHeading,
+  children,
 }: ExploreComponentProps) {
   return (
     <div className={space_grotesk.className} style={{ background: "#0F0F13" }}>
       <div className="text-[20px] md:text-[48px] lg:text-[48px] py-[20px] lg:py-[100px] md:py-[50px]">
-        <div className=" text-center pb-[30px] md:pb-[40px] lg:pb-[60px] text-[#E4E4E4]">
+        <div className="10">{children}</div>
+        <div className="relative text-center pb-[30px] md:pb-[40px] lg:pb-[60px] text-[#E4E4E4] z-2">
           {componentHeading}
         </div>
-        <div className="flex flex-col md:flex-col lg:flex-row items-center justify-center text-[#CACACA] gap-5 flex-wrap">
+        <div className=" relative z-2 flex flex-col md:flex-col lg:flex-row items-center justify-center text-[#CACACA] gap-5 flex-wrap">
           {cardContent.map((card, index) => (
             <div
               key={index}

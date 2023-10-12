@@ -1,5 +1,6 @@
 import ElevateBusiness from "@/components/homeComponents/elevateBusiness/ElevateBusiness";
 import ExploreComponent from "@/components/homeComponents/exploreComponent/ExploreComponent";
+import styles from "../../components/styles/gradients.module.css";
 
 const cardContent = [
   {
@@ -43,10 +44,11 @@ const heading = "Explore What We Have Done";
 export default function index() {
   return (
     <div>
-      <ExploreComponent
-        cardContent={cardContent}
-        componentHeading={heading}
-      ></ExploreComponent>
+      <ExploreComponent cardContent={cardContent} componentHeading={heading}>
+        <div
+          className={` ${styles.portfolio_gradient} absolute top-0 right-0 w-[300px] md:w-[500px] lg:w-[822px] h-[300px] md:h-[450px] lg:h-[613px]`}
+        ></div>
+      </ExploreComponent>
       <ElevateBusiness></ElevateBusiness>
     </div>
   );

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import styles from "../styles/gradients.module.css";
 
 type CardContent = {
   content: string;
@@ -16,14 +17,11 @@ export default function Testimonials({
   return (
     <div className="py-[75px] px-[52px]">
       <div
-        className="absolute inset-0"
-        style={{
-          background:
-            "radial-gradient(circle at top left, transparent 50%, rgba(209,123,195,1) 100%, rgba(224, 78, 78, 1) 50%, rgba(100, 26, 135, 1) 100%)",
-          filter: "blur(147px)",
-          clipPath: "circle(50% at 50% 50%)",
-          zIndex: "-99",
-        }}
+        className={` ${styles.portfolio_gradient} absolute top-0 right-0 w-[300px] md:w-[500px] lg:w-[822px] h-[300px] md:h-[450px] lg:h-[613px]`}
+        style={{ zIndex: "-99" }}
+      ></div>
+      <div
+        className={` ${styles.contact_gradient2} absolute right-0 w-[200px] md:w-[400px] lg:w-[700px] h-[150px] md:h-[250px] lg:h-[450px]`}
       ></div>
       <div className="flex justify-center">
         <div className="text-center text-[#E4E4E4] text-[28px] md:text-[48px] lg:text-[48px] lg:w-[50%]">

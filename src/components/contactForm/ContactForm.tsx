@@ -1,11 +1,18 @@
 import styles from "./contactForm.module.css";
+import gradientStyle from "../styles/gradients.module.css";
 export default function ContactForm() {
   return (
     <div>
+      <div
+        className={` ${gradientStyle.contact_gradient} absolute top-0 right-0 w-[300px] md:w-[500px] lg:w-[700px] h-[300px] md:h-[450px] lg:h-[450px]`}
+      ></div>
+      <div
+        className={` ${gradientStyle.contact_gradient2} absolute right-0 w-[300px] md:w-[500px] lg:w-[700px] h-[300px] md:h-[450px] lg:h-[450px]`}
+      ></div>
       <div className="text-center text-[28px] md:text-[60px] lg:text-[60px] py-[20px] md:py-[50px] lg:py-[80px] px-[20px] md:px-[150px] lg:px-[200px]">
         Ready to do business with us? Let s Get Started!
       </div>
-      <div className="w-full flex justify-center items-center h-full">
+      <div className="relative w-full flex justify-center items-center h-full" style={{zIndex: "5"}}>
         <div className="rounded-lg shadow xl:w-[875px] md:w-[700px] md:top-[-25px] w-full">
           <form>
             <div className="px-[20px] md:pr-5 lg:pr-5">

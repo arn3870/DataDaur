@@ -16,7 +16,7 @@ export default function HomeSlider() {
   return (
     <div className="flex font-normal">
       <div
-        className={` ${styles.home_gradient} absolute top-0 right-0 w-[250px] md:w-[500px] lg:w-[822px] h-[200px] md:h-[450px] lg:h-[613px]`}
+        className={` ${styles.home_gradient} absolute top-0 right-0 w-[300px] md:w-[500px] lg:w-[822px] h-[300px] md:h-[450px] lg:h-[613px]`}
       ></div>
       <div className={space_grotesk.className}>
         <div className="text-center mt-[60px] sm:text-[28px] px-[20px] md:px-[20px] lg:px-[100px] md:text[40px] lg:text-[90px]">

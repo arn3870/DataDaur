@@ -5,7 +5,7 @@ export default function ElevateBusiness() {
     <div className="relative bg-[#0F0F13] py-[40px] md:py-[80px] lg:py-[100px] overflow-hidden">
       {/* Gradient background */}
       <div
-        className={` ${styles.elevate_business} absolute w-[417px] h-[291px] z-0`}
+        className={` ${styles.elevate_business} absolute w-[200px] md:w-[417px] lg:w-[417px] h-[150px] md:h-[291px] lg:h-[291px] z-0`}
       ></div>
       <div className="relative z-10 text-[#CACACA] text-center">
         <div className="text-[20px] md:text-[48px] lg:text-[48px] lg:px-[250px]">
