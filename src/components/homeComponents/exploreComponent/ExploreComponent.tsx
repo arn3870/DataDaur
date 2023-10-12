@@ -1,6 +1,7 @@
 import { Space_Grotesk } from "next/font/google";
 import Image from "next/image";
 import { ReactNode } from "react";
+import styles from "../../styles/gradients.module.css";
 
 const space_grotesk = Space_Grotesk({
   subsets: ["latin", "latin-ext"],
@@ -25,7 +26,9 @@ export default function ExploreComponent({
 }: ExploreComponentProps) {
   return (
     <div className={space_grotesk.className} style={{ background: "#0F0F13" }}>
-      <div className="text-[20px] md:text-[48px] lg:text-[48px] py-[20px] lg:py-[100px] md:py-[50px]">
+      <div
+        className={` ${styles.card_animation} text-[20px] md:text-[48px] lg:text-[48px] py-[20px] lg:py-[100px] md:py-[50px]`}
+      >
         <div className="10">{children}</div>
         <div className="relative text-center pb-[30px] md:pb-[40px] lg:pb-[60px] text-[#E4E4E4] z-2">
           {componentHeading}

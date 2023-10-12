@@ -32,7 +32,7 @@ export default function Testimonials({
         {cardContent.map((slide, index) => (
           <div
             key={index}
-            className="rounded-[20px] px-[10px] md:px-[20px] lg:px-[30px] py-[30px] text-center lg:min-h-[426px]"
+            className={` ${styles.card_animation} rounded-[20px] px-[10px] md:px-[20px] lg:px-[30px] py-[30px] text-center lg:min-h-[426px]`}
             style={{
               background:
                 "linear-gradient(143deg, rgba(255, 255, 255, 0.06) -0.03%, rgba(255, 255, 255, 0.00) 100.03%)",

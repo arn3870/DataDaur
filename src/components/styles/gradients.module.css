@@ -79,3 +79,42 @@
   margin: -130px 0px 0px -30px;
   opacity: 50%;
 }
+
+@keyframes slidein {
+  0% {
+    /* Define initial styles for the animation */
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    /* Define final styles for the animation */
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.card_animation {
+  animation-name: slidein;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+}
+
+.card_animation.card_visible {
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+/* .typed_out {
+  overflow: hidden;
+  animation: typing 1s forwards;
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+} */
