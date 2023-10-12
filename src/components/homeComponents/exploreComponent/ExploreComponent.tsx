@@ -10,6 +10,7 @@ type CardContent = {
   title: string;
   description: string;
   buttonLabel: string;
+  imageLink: string;
 };
 
 type ExploreComponentProps = {
@@ -35,7 +36,15 @@ export default function ExploreComponent({
               key={index}
               className="w-[250px] md:w-[400px] lg:w-[400px] overflow-x-hidden"
             >
-              <div className=" w-[250px] md:w-[400px] lg:w-[400px] h-[250px] md:h-[400px] lg:h-[400px] bg-[#1C1928] rounded-[20px]"></div>
+              <div className=" flex justify-center items-center w-[250px] md:w-[400px] lg:w-[400px] h-[250px] md:h-[400px] lg:h-[400px] bg-[#1C1928] rounded-[20px]">
+                <Image
+                  src={card.imageLink}
+                  alt="portfolio image"
+                  width={400}
+                  height={250}
+                  className=" w-[200px] md:w-[350px] lg:w-[350px] h-[175px] md:h-[350px] lg:h-[350x] bg-cover"
+                ></Image>
+              </div>
               <div className="mt-[10px] md:mt-[30px] lg:mt-[30px]">
                 <h1 className="text-[10px] md:text-[25px] lg:text-[25px] ">
                   {card.title}

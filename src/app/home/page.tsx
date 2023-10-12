@@ -12,18 +12,21 @@ const cardContent = [
     description:
       "Lorem ipsum dolor sit amet consectetur. Sollicitudin sem ac consectetur nulla volutpat libero tortor nam tristique.",
     buttonLabel: "Explore Project",
+    imageLink: "/the_matriach.png",
   },
   {
     title: "My e-assistant",
     description:
       "Lorem ipsum dolor sit amet consectetur. Sollicitudin sem ac consectetur nulla volutpat libero tortor nam tristique.",
     buttonLabel: "Explore Project",
+    imageLink: "/e_assistant_manager.png",
   },
   {
-    title: "My e-assistant",
+    title: "Health Assesment",
     description:
       "Lorem ipsum dolor sit amet consectetur. Sollicitudin sem ac consectetur nulla volutpat libero tortor nam tristique.",
     buttonLabel: "Explore Project",
+    imageLink: "/health_assesment.png",
   },
 ];
 

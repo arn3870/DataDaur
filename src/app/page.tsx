@@ -12,28 +12,33 @@ const cardContent = [
     description:
       "Lorem ipsum dolor sit amet consectetur. Sollicitudin sem ac consectetur nulla volutpat libero tortor nam tristique.",
     buttonLabel: "Explore Project",
+    imageLink: "/the_matriach.png",
   },
   {
     title: "My e-assistant",
     description:
       "Lorem ipsum dolor sit amet consectetur. Sollicitudin sem ac consectetur nulla volutpat libero tortor nam tristique.",
     buttonLabel: "Explore Project",
+    imageLink: "/e_assistant_manager.png",
   },
   {
-    title: "My e-assistant",
+    title: "Health Assesment",
     description:
       "Lorem ipsum dolor sit amet consectetur. Sollicitudin sem ac consectetur nulla volutpat libero tortor nam tristique.",
     buttonLabel: "Explore Project",
+    imageLink: "/health_assesment.png",
   },
 ];
 
-const heading = "Explore What We Have Done"
+const heading = "Explore What We Have Done";
 
 export default function index() {
   return (
     <div>
       <HomeSlider></HomeSlider>
-      <ExploreComponent cardContent={cardContent} componentHeading={heading}><></></ExploreComponent>
+      <ExploreComponent cardContent={cardContent} componentHeading={heading}>
+        <></>
+      </ExploreComponent>
       <WelcomeNote></WelcomeNote>
       <OfferedServices></OfferedServices>
       <ReviewSlider></ReviewSlider>
