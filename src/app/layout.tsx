@@ -17,11 +17,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body className={space_grotesk.className}>
-        <Header></Header>
-        {children}
-        <HomeFooter></HomeFooter>
+    <html lang="en" style={{overflowX: "hidden" }}>
+      <body className={space_grotesk.className} style={{ overflowX: "hidden", position: "relative" }}>
+        <div>
+          <Header></Header>
+          {children}
+          <HomeFooter></HomeFooter>
+        </div>
       </body>
     </html>
   );

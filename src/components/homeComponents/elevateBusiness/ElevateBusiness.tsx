@@ -1,17 +1,11 @@
-import Image from "next/image";
+import styles from "../../styles/gradients.module.css";
 
 export default function ElevateBusiness() {
   return (
-    <div className="relative bg-[#0F0F13] py-[40px] md:py-[80px] lg:py-[100px]">
+    <div className="relative bg-[#0F0F13] py-[40px] md:py-[80px] lg:py-[100px] overflow-hidden">
       {/* Gradient background */}
       <div
-        className="absolute inset-0 z-0"
-        style={{
-          background:
-            "radial-gradient(circle at bottom right, transparent 70%, rgba(66, 34, 159, 1) 100%)",
-          filter: "blur(147px)",
-          clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
-        }}
+        className={` ${styles.elevate_business} absolute w-[417px] h-[291px] z-0`}
       ></div>
       <div className="relative z-10 text-[#CACACA] text-center">
         <div className="text-[20px] md:text-[48px] lg:text-[48px] lg:px-[250px]">

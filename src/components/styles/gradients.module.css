@@ -1,0 +1,24 @@
+.home_gradient {
+  background: radial-gradient(
+    circle,
+    rgba(212, 85, 85, 1) 50%,
+    rgba(146, 45, 115, 1) 57%,
+    rgba(209, 120, 188, 1) 100%
+  );
+  filter: blur(80px);
+  border-radius: 50%;
+  z-index: -99;
+  transform: rotate(154.81deg);
+  flex-shrink: 0;
+  background-position: 100% 80%;
+  margin: -130px -140px 0px 0px;
+}
+.elevate_business {
+  background: radial-gradient(circle,#42229f 50%, #d17bc3 57%, #974ee0 100%);
+  filter: blur(80px);
+  border-radius: 50%;
+  transform: rotate(154.81deg);
+  flex-shrink: 0;
+  background-position: 100% 80%;
+  margin: -80px -140px 0px 0px;
+}

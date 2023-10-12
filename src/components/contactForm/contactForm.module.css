@@ -19,3 +19,16 @@
   );
   backdrop-filter: blur(5px);
 }
+.button {
+  background: var(
+    --Button-Filled--Gradient,
+    linear-gradient(89deg, #3e2567 0.92%, #140769 98.29%)
+  );
+  box-shadow: 0px 4px 25px 0px #2f1c64;
+  border: 2px solid transparent;
+  border-image-slice: 1 1 0 0;
+  border: 1px solid;
+  border-image-source: linear-gradient(89deg, #15ff00 0.92%, #140769 98.29%);
+  border-radius: 20px; /* Add the border radius */
+}
+

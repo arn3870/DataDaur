@@ -16,7 +16,7 @@ export default function ContactForm() {
                   </label>
                   <input
                     className={` ${styles.inputClass} pl-[10px] lg:mt-[15px] outline-none focus:outline-none py-[10px] md:py-[20px] lg:py-[20px] px-[20px] rounded-[7px] text-[12px] sm:text-[14px]`}
-                    id="service"
+                    id="first_name"
                   ></input>
                 </div>
                 <div className="flex flex-col w-full">
@@ -25,7 +25,7 @@ export default function ContactForm() {
                   </label>
                   <input
                     className={` ${styles.inputClass} pl-[10px] lg:mt-[15px] outline-none focus:outline-none py-[10px] md:py-[20px] lg:py-[20px] px-[20px] rounded-[7px] text-[12px] sm:text-[14px]`}
-                    id="review_actions"
+                    id="last_name"
                   ></input>
                 </div>
               </div>
@@ -36,7 +36,7 @@ export default function ContactForm() {
                   </label>
                   <input
                     className={` ${styles.inputClass} pl-[10px] lg:mt-[15px] outline-none focus:outline-none py-[10px] md:py-[20px] lg:py-[20px] px-[20px] rounded-[7px] text-[12px] sm:text-[14px]`}
-                    id="review_actions"
+                    id="email"
                   ></input>
                 </div>
               </div>
@@ -48,7 +48,7 @@ export default function ContactForm() {
                   <textarea
                     rows={10}
                     className={` ${styles.inputClass} pl-[10px] lg:mt-[15px] outline-none focus:outline-none py-[10px] md:py-[20px] lg:py-[20px] px-[20px] rounded-[7px] text-[12px] sm:text-[14px]`}
-                    id="review_actions"
+                    id="inquiry"
                   ></textarea>
                 </div>
               </div>

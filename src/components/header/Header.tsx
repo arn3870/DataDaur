@@ -14,7 +14,7 @@ export default function Header() {
     <div className="relative container md:flex-[9] sm:flex-[6] 2xl:flex-[6] 3xl:flex-1 4xl:flex-[0.85] w-full p-0 m-0">
       <div className="topbar w-full flex bg-transparent justify-between p-4 pt-[35px] pl-[50px]">
         <Image src="/DataDaur.svg" alt="datadaur" width={132} height={40} />
-        <div className="hidden md:flex md:justify-between w-[80%] space-x-4">
+        <div className="hidden md:flex md:justify-between w-[60%] space-x-4">
           <Link href="/">Home</Link>
           <Link href="/portfolio">Portfolio</Link>
           <Link href="/">About</Link>

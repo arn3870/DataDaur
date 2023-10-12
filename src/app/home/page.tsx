@@ -19,6 +19,12 @@ const cardContent = [
       "Lorem ipsum dolor sit amet consectetur. Sollicitudin sem ac consectetur nulla volutpat libero tortor nam tristique.",
     buttonLabel: "Explore Project",
   },
+  {
+    title: "My e-assistant",
+    description:
+      "Lorem ipsum dolor sit amet consectetur. Sollicitudin sem ac consectetur nulla volutpat libero tortor nam tristique.",
+    buttonLabel: "Explore Project",
+  },
 ];
 
 const heading = "Explore What We Have Done";

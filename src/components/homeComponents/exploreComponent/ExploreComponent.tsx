@@ -29,9 +29,9 @@ export default function ExploreComponent({
           {cardContent.map((card, index) => (
             <div
               key={index}
-              className="w-[250px] md:w-[400px] lg:w-[645px] overflow-x-hidden"
+              className="w-[250px] md:w-[400px] lg:w-[400px] overflow-x-hidden"
             >
-              <div className=" w-[250px] md:w-[400px] lg:w-[645px] h-[250px] md:h-[400px] lg:h-[645px] bg-[#1C1928] rounded-[20px]"></div>
+              <div className=" w-[250px] md:w-[400px] lg:w-[400px] h-[250px] md:h-[400px] lg:h-[400px] bg-[#1C1928] rounded-[20px]"></div>
               <div className="mt-[10px] md:mt-[30px] lg:mt-[30px]">
                 <h1 className="text-[10px] md:text-[25px] lg:text-[25px] ">
                   {card.title}

@@ -7,6 +7,7 @@ import websiteIcon from "../../../../public/Icons/website.svg";
 import MonitorIcon from "../../../../public/Icons/monitor.svg";
 import designSystemsIcon from "../../../../public/Icons/design_systems.svg";
 import saasIcon from "../../../../public/Icons/saas.svg";
+import styles from "../../styles/gradients.module.css";
 const space_grotesk = Space_Grotesk({
   subsets: ["latin", "latin-ext"],
 });
@@ -15,14 +16,7 @@ export default function HomeSlider() {
   return (
     <div className="flex font-normal">
       <div
-        className="absolute inset-0"
-        style={{
-          background:
-            "radial-gradient(circle at top left, transparent 50%, rgba(209,123,195,1) 100%, rgba(224, 78, 78, 1) 50%, rgba(100, 26, 135, 1) 100%)",
-          filter: "blur(147px)",
-          clipPath: "polygon(0 0, 100% 0, 100% 100%, 0% 100%)",
-          zIndex: "-99",
-        }}
+        className={` ${styles.home_gradient} absolute top-0 right-0 w-[250px] md:w-[500px] lg:w-[822px] h-[200px] md:h-[450px] lg:h-[613px]`}
       ></div>
       <div className={space_grotesk.className}>
         <div className="text-center mt-[60px] sm:text-[28px] px-[20px] md:px-[20px] lg:px-[100px] md:text[40px] lg:text-[90px]">
@@ -41,7 +35,7 @@ export default function HomeSlider() {
             Get Started
           </button>
         </div>
-        <div className="flex flex-col justify-center items-center mt-[20px] md:mt-[40px] lg:mt-[50px] md:mt-[40px] sm:mt-[30px]">
+        <div className="flex flex-col justify-center text-[#F2F2F2] items-center mt-[20px] md:mt-[40px] lg:mt-[50px] md:mt-[40px] sm:mt-[30px]">
           <div className="flex flex-row">
             <div className="flex items-center sm:mr-[15px] lg:mr-[50px]">
               <Image
@@ -55,7 +49,7 @@ export default function HomeSlider() {
                 Business@datadaur.com
               </span>
             </div>
-            <div className="flex items-center mt-0 md:mt-[15px] lg:mt-[15px] ml-[0px] md:ml-[50px] lg:ml-[50px]">
+            <div className="flex items-center ml-[0px] md:ml-[50px] lg:ml-[50px]">
               <Image
                 src={phoneIcon}
                 alt="sms"
