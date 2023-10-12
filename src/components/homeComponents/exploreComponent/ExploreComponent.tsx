@@ -2,7 +2,7 @@ import { Space_Grotesk } from "next/font/google";
 import Image from "next/image";
 import { ReactNode } from "react";
 import styles from "../../styles/gradients.module.css";
-
+import Link from "next/link";
 const space_grotesk = Space_Grotesk({
   subsets: ["latin", "latin-ext"],
 });
@@ -56,17 +56,19 @@ export default function ExploreComponent({
                   {card.description}
                 </p>
                 <div className="flex mt-[5px] md:mt-[50px] lg:mt-[50px] text-sm md:text-lg lg:text-xl">
-                  <button
-                    style={{
-                      border: "2px solid var(--Button-Stroke, #A265F0)",
-                      background:
-                        "var(--Button-Filled--Gradient, linear-gradient(89deg, #3E2567 0.92%, #140769 98.29%))",
-                      boxShadow: "0px 4px 25px 0px #2F1C64",
-                    }}
-                    className="px-[5px] md:px-[10px] lg:px-[40px] py-[5px] md:py-[10px] lg:py-[15px] text-[10px] md:text-[18px] lg:text-[18px] rounded-[20px] color-white"
-                  >
-                    {card.buttonLabel}
-                  </button>
+                  <Link href={"/service-details"}>
+                    <button
+                      style={{
+                        border: "2px solid var(--Button-Stroke, #A265F0)",
+                        background:
+                          "var(--Button-Filled--Gradient, linear-gradient(89deg, #3E2567 0.92%, #140769 98.29%))",
+                        boxShadow: "0px 4px 25px 0px #2F1C64",
+                      }}
+                      className="px-[5px] md:px-[10px] lg:px-[40px] py-[5px] md:py-[10px] lg:py-[15px] text-[10px] md:text-[18px] lg:text-[18px] rounded-[20px] color-white"
+                    >
+                      {card.buttonLabel}
+                    </button>
+                  </Link>
                 </div>
               </div>
             </div>

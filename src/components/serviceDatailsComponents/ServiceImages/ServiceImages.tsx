@@ -1,7 +1,12 @@
+import styles from "../../styles/gradients.module.css";
 export default function ServiceImages() {
   return (
     <div className="text-[#F2F2F2] w-[75%]">
       {/* <div className="text-[#CACACA] grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-5"> */}
+      <div
+        className={` ${styles.portfolio_gradient} absolute top-0 right-0 w-[300px] md:w-[500px] lg:w-[822px] h-[300px] md:h-[450px] lg:h-[613px]`}
+        style={{ zIndex: "-99" }}
+      ></div>
       <div className="text-[36px]">Build your website in WordPress</div>
       <div className="text-[20px] pb-[10px] w-[90%]">
         Lorem ipsum dolor sit amet consectetur. Sollicitudin sem ac consectetur
