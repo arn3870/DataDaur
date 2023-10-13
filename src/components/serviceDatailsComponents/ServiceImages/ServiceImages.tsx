@@ -32,7 +32,7 @@ export default function ServiceImages() {
         </span>
         <br></br>
         <br></br>
-        <ul className="list-disc">
+        <ul className="list-disc list-inside">
           <li>Bullet Point 1</li>
           <li>Bullet Point 2</li>
           <li>Bullet Point 3</li>

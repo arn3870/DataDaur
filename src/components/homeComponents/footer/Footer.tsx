@@ -31,6 +31,7 @@ export default function HomeFooter() {
                 href={
                   "//api.whatsapp.com/send?phone=971552025311&text=Hi DataDaur"
                 }
+                target="_blank"
               >
                 <div className="flex items-center">
                   <Image
@@ -68,6 +69,7 @@ export default function HomeFooter() {
                 href={
                   "//api.whatsapp.com/send?phone=971552025311&text=Hi DataDaur"
                 }
+                target="_blank"
               >
                 <div className="flex items-center">
                   <Image
@@ -87,13 +89,19 @@ export default function HomeFooter() {
         </div>
         <div className="flex flex-col">
           <div className="flex flex-row text-[10px] md:text-[14px] lg:text-[14px] gap-x-[10px] md:gap-[10px] lg:gap-[10px] mb-[10px] md:mb-[30px] lg:mb-[30px]">
-            <div>Terms & Conditions</div>
-            <div>Privacy Policy</div>
-            <div>Affiliate Program</div>
+            <Link href={"/terms&conditions"}>
+              <div>Terms & Conditions</div>
+            </Link>
+            <Link href={"/privacy-policy"}>
+              <div>Privacy Policy</div>
+            </Link>
+            <Link href={"/affiliate-program"}>
+              <div>Affiliate Program</div>
+            </Link>
           </div>
           <div className="flex flex-row justify-between md:justify-end lg:justify-end gap-5">
             <div className="w-[16px] md:w-[24px] lg:w-[24px] h-[16px] md:h-[24px] lg:h-[24px]">
-              <Link href={"/"}>
+              <Link href={"/"} target="_blank">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -109,7 +117,7 @@ export default function HomeFooter() {
               </Link>
             </div>
             <div className="w-[16px] md:w-[24px] lg:w-[24px] h-[16px] md:h-[24px] lg:h-[24px]">
-              <Link href={"/"}>
+              <Link href={"/"} target="_blank">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -125,7 +133,7 @@ export default function HomeFooter() {
               </Link>
             </div>
             <div className="w-[16px] md:w-[24px] lg:w-[24px] h-[16px] md:h-[24px] lg:h-[24px]">
-              <Link href={"https://twitter.com/DataDaur"}>
+              <Link href={"https://twitter.com/DataDaur"} target="_blank">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -141,7 +149,7 @@ export default function HomeFooter() {
               </Link>
             </div>
             <div className="w-[16px] md:w-[24px] lg:w-[24px] h-[16px] md:h-[24px] lg:h-[24px]">
-              <Link href={"/"}>
+              <Link href={"/"} target="_blank">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"

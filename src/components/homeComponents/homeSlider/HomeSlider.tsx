@@ -56,6 +56,7 @@ export default function HomeSlider() {
               href={
                 "//api.whatsapp.com/send?phone=971552025311&text=Hi DataDaur"
               }
+              target="_blank"
             >
               <div className="flex items-center ml-[0px] md:ml-[50px] lg:ml-[50px]">
                 <Image
