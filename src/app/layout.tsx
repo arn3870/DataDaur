@@ -2,7 +2,7 @@ import "./globals.css";
 import type { Metadata } from "next";
 import { Space_Grotesk } from "next/font/google";
 import Header from "@/components/header/Header";
-import HomeFooter from "@/components/homeFooter/HomeFooter";
+import Footer from "@/components/homeComponents/footer/Footer"
 
 const space_grotesk = Space_Grotesk({ subsets: ["latin"] });
 
@@ -22,7 +22,7 @@ export default function RootLayout({
         <div>
           <Header></Header>
           {children}
-          <HomeFooter></HomeFooter>
+          <Footer></Footer>
         </div>
       </body>
     </html>

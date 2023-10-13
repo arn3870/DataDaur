@@ -8,6 +8,7 @@ import MonitorIcon from "../../../../public/Icons/monitor.svg";
 import designSystemsIcon from "../../../../public/Icons/design_systems.svg";
 import saasIcon from "../../../../public/Icons/saas.svg";
 import styles from "../../styles/gradients.module.css";
+import Link from "next/link";
 const space_grotesk = Space_Grotesk({
   subsets: ["latin", "latin-ext"],
 });
@@ -37,30 +38,38 @@ export default function HomeSlider() {
         </div>
         <div className="flex flex-col justify-center text-[#F2F2F2] items-center mt-[20px] md:mt-[40px] lg:mt-[50px] md:mt-[40px] sm:mt-[30px]">
           <div className="flex flex-row">
-            <div className="flex items-center sm:mr-[15px] lg:mr-[50px]">
-              <Image
-                src={smsIcon}
-                alt="sms"
-                width={24}
-                height={24}
-                className="w-[14px] h-[14px] md:w-[24px] lg:w-[24px] md:h-[24px] lg:h-[24px]"
-              ></Image>
-              <span className="text-[10px] md:text-[18px] lg:text-[18px] ml-[5px] md:ml-[20px] lg:ml-[20px]">
-                Business@datadaur.com
-              </span>
-            </div>
-            <div className="flex items-center ml-[0px] md:ml-[50px] lg:ml-[50px]">
-              <Image
-                src={phoneIcon}
-                alt="sms"
-                width={24}
-                height={24}
-                className="w-[14px] h-[14px] md:w-[24px] lg:w-[24px] md:h-[24px] lg:h-[24px]"
-              ></Image>
-              <span className="text-[10px] md:text-[18px] lg:text-[18px] ml-[5px] md:ml-[20px] lg:ml-[20px]">
-                +92 3213241221
-              </span>
-            </div>
+            <Link href={"mailto:${business@datadaur.com}"}>
+              <div className="flex items-center sm:mr-[15px] lg:mr-[50px]">
+                <Image
+                  src={smsIcon}
+                  alt="sms"
+                  width={24}
+                  height={24}
+                  className="w-[14px] h-[14px] md:w-[24px] lg:w-[24px] md:h-[24px] lg:h-[24px]"
+                ></Image>
+                <span className="text-[10px] md:text-[18px] lg:text-[18px] ml-[5px] md:ml-[20px] lg:ml-[20px]">
+                  Business@datadaur.com
+                </span>
+              </div>
+            </Link>
+            <Link
+              href={
+                "//api.whatsapp.com/send?phone=971552025311&text=Hi DataDaur"
+              }
+            >
+              <div className="flex items-center ml-[0px] md:ml-[50px] lg:ml-[50px]">
+                <Image
+                  src={phoneIcon}
+                  alt="sms"
+                  width={24}
+                  height={24}
+                  className="w-[14px] h-[14px] md:w-[24px] lg:w-[24px] md:h-[24px] lg:h-[24px]"
+                ></Image>
+                <span className="text-[10px] md:text-[18px] lg:text-[18px] ml-[5px] md:ml-[20px] lg:ml-[20px]">
+                  +97 (155) 202-5311
+                </span>
+              </div>
+            </Link>
           </div>
         </div>
         <div className="flex lg:flex-row md:flex-row sm:flex-col flex-wrap justify-between px-[20px] md:px-[50px] lg:px-[50px] mt-[30px] md:mt-[80px] lg:mt-[100px] lg:mb-[161px]">

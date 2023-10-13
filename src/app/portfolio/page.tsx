@@ -7,42 +7,42 @@ const cardContent = [
     title: "The Matriach",
     description:
       "Lorem ipsum dolor sit amet consectetur. Sollicitudin sem ac consectetur nulla volutpat libero tortor nam tristique.",
-    buttonLabel: "Explore Project",
+    buttonLabel: "Explore Service",
     imageLink: "/the_matriach.png",
   },
   {
     title: "My e-assistant",
     description:
       "Lorem ipsum dolor sit amet consectetur. Sollicitudin sem ac consectetur nulla volutpat libero tortor nam tristique.",
-    buttonLabel: "Explore Project",
+    buttonLabel: "Explore Service",
     imageLink: "/e_assistant_manager.png",
   },
   {
     title: "Health Assesment",
     description:
       "Lorem ipsum dolor sit amet consectetur. Sollicitudin sem ac consectetur nulla volutpat libero tortor nam tristique.",
-    buttonLabel: "Explore Project",
+    buttonLabel: "Explore Service",
     imageLink: "/health_assesment.png",
   },
   {
     title: "The Matriach",
     description:
       "Lorem ipsum dolor sit amet consectetur. Sollicitudin sem ac consectetur nulla volutpat libero tortor nam tristique.",
-    buttonLabel: "Explore Project",
+    buttonLabel: "Explore Service",
     imageLink: "/the_matriach.png",
   },
   {
     title: "My e-assistant",
     description:
       "Lorem ipsum dolor sit amet consectetur. Sollicitudin sem ac consectetur nulla volutpat libero tortor nam tristique.",
-    buttonLabel: "Explore Project",
+    buttonLabel: "Explore Service",
     imageLink: "/e_assistant_manager.png",
   },
   {
     title: "Health Assesment",
     description:
       "Lorem ipsum dolor sit amet consectetur. Sollicitudin sem ac consectetur nulla volutpat libero tortor nam tristique.",
-    buttonLabel: "Explore Project",
+    buttonLabel: "Explore Service",
     imageLink: "/health_assesment.png",
   },
 ];
