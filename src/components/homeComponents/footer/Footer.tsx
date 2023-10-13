@@ -7,8 +7,14 @@ export default function HomeFooter() {
     <div className="px-[20px] md:px-[30px] lg:px-[30px] pt-[20px] md:pt-[60px] lg:pt-[60px] mb-[10px] lg:mb-[20px] md:mb-[20px]">
       <div className="flex flex-col md:flex-row lg:flex-row justify-between mb-[20px]">
         <div className="flex justify-start flex-col gap-[5px] md:gap-[20px] lg:gap-[20px] w-full md:w-[25%] lg:w-[15%] text-[#F2F2F2] lg:pr-[15px]">
-          <Image src="/DataDaur.svg" alt="datadaur" width={132} height={40} />
-          <div className="flex flex-col md:flex-col lg:flex-row gap-8">
+          <Image
+            src="/DataDaur.svg"
+            alt="datadaur"
+            width={132}
+            height={40}
+            className="mb-[5px] mb:mb-[0px] lg:mb-[0px]"
+          />
+          <div className="flex flex-col md:flex-col lg:flex-row gap-2 md:gap-8 lg:gap-8">
             <div className="flex flex-col">
               <div className="text-[10px] md:text-[14px] lg:text-[14px] font-normal">
                 East Rd. CB1, Cambridge, United Kingdom
@@ -88,7 +94,7 @@ export default function HomeFooter() {
           </div>
         </div>
         <div className="flex flex-col">
-          <div className="flex flex-row text-[10px] md:text-[14px] lg:text-[14px] gap-x-[10px] md:gap-[10px] lg:gap-[10px] mb-[10px] md:mb-[30px] lg:mb-[30px]">
+          <div className="flex flex-row justify-between text-[10px] md:text-[14px] lg:text-[14px] gap-x-[10px] md:gap-[10px] lg:gap-[10px] mb-[10px] md:mb-[30px] lg:mb-[30px] text-white">
             <Link href={"/terms&conditions"}>
               <div>Terms & Conditions</div>
             </Link>
@@ -186,7 +192,7 @@ export default function HomeFooter() {
           </div>
         </div>
       </div>
-      <div className="text-center text-[10px] md:text-[12px] lg:text-[12px]">
+      <div className="text-center text-[10px] md:text-[12px] lg:text-[12px] text-white">
         @ Datadaur 2023. All rights reserved.
       </div>
     </div>

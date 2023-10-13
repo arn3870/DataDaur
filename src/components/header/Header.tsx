@@ -51,7 +51,7 @@ export default function Header() {
       </div>
       {/* Dropdown menu */}
       {isMenuOpen && (
-        <div className="lg:hidden absolute flex flex-col z-99 top-[80px] right-4 bg-[#14161A] shadow-md rounded-md p-[10px] divide-y">
+        <div className="lg:hidden absolute flex flex-col z-99 top-[80px] right-4 bg-[#14161A] shadow-md rounded-md p-[10px] divide-y text-white">
           <Link href="/">Home</Link>
           <Link href="/portfolio">Portfolio</Link>
           <Link href="/">About</Link>

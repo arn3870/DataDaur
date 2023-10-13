@@ -1,7 +1,7 @@
 export default function PricingDetails() {
   return (
     <div
-      className="w-[300px] h-fit p-5"
+      className="w-[300px] h-fit p-5 mb-[10px] text-white"
       style={{
         borderRadius: "10px",
         border: "1px solid var(--Button-Stroke, #A265F0)",
@@ -10,17 +10,27 @@ export default function PricingDetails() {
       }}
     >
       <div className="text-[16px]">Starting from</div>
-      <div className="pb-[60px] text-[24px]">$250</div>
+      <div className="pb-[20px] md:pb-[45px] lg:pb-[60px] text-[14px] md:text-[18px] lg:text-[24px]">
+        $250
+      </div>
       <div>Number of pages</div>
-      <div className="pb-[60px] text-[24px]">$250</div>
+      <div className="pb-[20px] md:pb-[45px] lg:pb-[60px] text-[14px] md:text-[18px] lg:text-[24px]">
+        $250
+      </div>
       <div>Project Timeline</div>
-      <div className="pb-[60px] text-[24px]">$250</div>
+      <div className="pb-[20px] md:pb-[45px] lg:pb-[60px] text-[14px] md:text-[18px] lg:text-[24px]">
+        $250
+      </div>
       <div>Revisions</div>
-      <div className="pb-[60px] text-[24px]">$250</div>
+      <div className="pb-[20px] md:pb-[45px] lg:pb-[60px] text-[14px] md:text-[18px] lg:text-[24px]">
+        $250
+      </div>
       <div>Additional Page Cost</div>
-      <div className="pb-[60px] text-[24px]">$250</div>
+      <div className="pb-[20px] md:pb-[45px] lg:pb-[60px] text-[14px] md:text-[18px] lg:text-[24px]">
+        $250
+      </div>
       <button
-      className="px-[24px] py-[16px] w-full"
+        className="px-[24px] py-[16px] w-full"
         style={{
           borderRadius: "20px",
           border: "2px solid #A265F0",

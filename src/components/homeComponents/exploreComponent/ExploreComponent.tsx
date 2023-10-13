@@ -37,15 +37,15 @@ export default function ExploreComponent({
           {cardContent.map((card, index) => (
             <div
               key={index}
-              className="w-[250px] md:w-[400px] lg:w-[400px] overflow-x-hidden"
+              className="w-[300px] md:w-[450px] lg:w-[400px] overflow-x-hidden"
             >
-              <div className=" flex justify-center items-center w-[250px] md:w-[400px] lg:w-[400px] h-[250px] md:h-[400px] lg:h-[400px] bg-[#1C1928] rounded-[20px]">
+              <div className=" flex justify-center items-center w-[300px] md:w-[450px] lg:w-[400px] h-[300px] md:h-[450px] lg:h-[400px] bg-[#1C1928] rounded-[20px]">
                 <Image
                   src={card.imageLink}
                   alt="portfolio image"
                   width={400}
                   height={250}
-                  className=" w-[200px] md:w-[350px] lg:w-[350px] h-[175px] md:h-[350px] lg:h-[350x] bg-cover"
+                  className=" w-[250px] md:w-[400px] lg:w-[350px] h-[250px] md:h-[400px] lg:h-[350x] bg-cover"
                 ></Image>
               </div>
               <div className="mt-[10px] md:mt-[30px] lg:mt-[30px]">
@@ -64,7 +64,7 @@ export default function ExploreComponent({
                           "var(--Button-Filled--Gradient, linear-gradient(89deg, #3E2567 0.92%, #140769 98.29%))",
                         boxShadow: "0px 4px 25px 0px #2F1C64",
                       }}
-                      className="px-[5px] md:px-[10px] lg:px-[40px] py-[5px] md:py-[10px] lg:py-[15px] text-[10px] md:text-[18px] lg:text-[18px] rounded-[20px] color-white"
+                      className="px-[5px] md:px-[10px] lg:px-[40px] py-[5px] md:py-[10px] lg:py-[15px] text-[10px] md:text-[18px] lg:text-[18px] rounded-[20px] text-white"
                     >
                       {card.buttonLabel}
                     </button>

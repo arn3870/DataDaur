@@ -7,21 +7,25 @@ export default function ServiceImages() {
         className={` ${styles.portfolio_gradient} absolute top-0 right-0 w-[300px] md:w-[500px] lg:w-[822px] h-[300px] md:h-[450px] lg:h-[613px]`}
         style={{ zIndex: "-99" }}
       ></div>
-      <div className="text-[36px]">Build your website in WordPress</div>
-      <div className="text-[20px] pb-[10px] w-[90%]">
+      <div className="text-[20px] md:text-[36px] lg:text-[36px]">
+        Build your website in WordPress
+      </div>
+      <div className="text-[8px] md:text-[16px] lg:text-[18px] pb-[10px] w-[90%]">
         Lorem ipsum dolor sit amet consectetur. Sollicitudin sem ac consectetur
         nulla volutpat libero tortor nam tristique.
       </div>
-      <div className="text-[#CACACA] flex flex-row gap-5">
-        <div className="lg:w-[645px] md:w-[400px] sm:w-[300px] lg:h-[645px] md:h-[400px] bg-[#1C1928] rounded-[10px]"></div>
+      <div className="text-[#CACACA] flex items-center md:items-start flex-col md:flex-row lg:flex-row gap-5">
+        <div className="lg:w-[645px] md:w-[400px] w-[250px] lg:h-[645px] md:h-[400px] h-[250px] bg-[#1C1928] rounded-[10px]"></div>
         <div className="flex flex-col gap-5">
-          <div className="w-[228px] h-[200px] bg-[#1C1928] rounded-[10px]"></div>
-          <div className="w-[228px] h-[200px] bg-[#1C1928] rounded-[10px]"></div>
-          <div className="w-[228px] h-[200px] bg-[#1C1928] rounded-[10px]"></div>
+          <div className="w-[250px] md:w-[228px] lg:w-[228px] h-[250px] md:h-[200px] lg:h-[200px] bg-[#1C1928] rounded-[10px]"></div>
+          <div className="w-[250px] md:w-[228px] lg:w-[228px] h-[250px] md:h-[200px] lg:h-[200px] bg-[#1C1928] rounded-[10px]"></div>
+          <div className="w-[250px] md:w-[228px] lg:w-[228px] h-[250px] md:h-[200px] lg:h-[200px] bg-[#1C1928] rounded-[10px]"></div>
         </div>
       </div>
-      <div className="text-[36px]">Service Description</div>
-      <div className="text-[20px] pb-[10px] w-[90%] text-[18px]">
+      <div className="text-[20px] md:text-[36px] lg:text-[36px]">
+        Service Description
+      </div>
+      <div className="text-[8px] md:text-[16px] lg:text-[18px] pb-[10px] w-[90%]">
         <span>
           Lorem ipsum dolor sit amet consectetur. Tempus nibh egestas at ut nec
           condimentum vulputate id sed. Ut ullamcorper aenean tincidunt lacinia.

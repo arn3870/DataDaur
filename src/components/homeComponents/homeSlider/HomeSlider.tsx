@@ -20,10 +20,10 @@ export default function HomeSlider() {
         className={` ${styles.home_gradient} absolute top-0 right-0 w-[300px] md:w-[500px] lg:w-[822px] h-[300px] md:h-[450px] lg:h-[613px]`}
       ></div>
       <div className={space_grotesk.className}>
-        <div className="text-center mt-[60px] sm:text-[28px] px-[20px] md:px-[20px] lg:px-[100px] md:text[40px] lg:text-[90px]">
+        <div className="text-center text-white mt-[60px] px-[20px] md:px-[20px] lg:px-[100px] text-[28px] md:text[40px] lg:text-[90px]">
           Empower your business with Generative Artificial Intelligence
         </div>
-        <div className="flex justify-center mt-[50px] sm:text-sm md:text-lg lg:text-xl">
+        <div className="flex justify-center mt-[50px] sm:text-sm md:text-lg lg:text-xl text-white">
           <button
             style={{
               border: "2px solid var(--Button-Stroke, #A265F0)",
@@ -73,7 +73,7 @@ export default function HomeSlider() {
             </Link>
           </div>
         </div>
-        <div className="flex lg:flex-row md:flex-row sm:flex-col flex-wrap justify-between px-[20px] md:px-[50px] lg:px-[50px] mt-[30px] md:mt-[80px] lg:mt-[100px] lg:mb-[161px]">
+        <div className="flex lg:flex-row md:flex-row sm:flex-col flex-wrap justify-between px-[20px] md:px-[50px] lg:px-[50px] mt-[30px] md:mt-[80px] lg:mt-[100px] lg:mb-[161px] text-white">
           <div className="flex flex-col items-center justify-center">
             <Image
               src={mobileIcon}

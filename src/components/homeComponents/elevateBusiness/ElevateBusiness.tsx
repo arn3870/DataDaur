@@ -2,7 +2,7 @@ import styles from "../../styles/gradients.module.css";
 
 export default function ElevateBusiness() {
   return (
-    <div className="relative bg-[#0F0F13] py-[40px] md:py-[80px] lg:py-[100px] overflow-hidden">
+    <div className="relative bg-[#0F0F13] px-[20px] py-[40px] md:py-[80px] lg:py-[100px] overflow-hidden">
       {/* Gradient background */}
       <div
         className={` ${styles.elevate_business} absolute w-[200px] md:w-[417px] lg:w-[417px] h-[150px] md:h-[291px] lg:h-[291px] z-0`}
@@ -16,7 +16,7 @@ export default function ElevateBusiness() {
           our family of satisfied clients today!
         </div>
       </div>
-      <div className="flex justify-center mt-[50px] sm:text-sm md:text-lg lg:text-xl">
+      <div className="flex justify-center mt-[50px] sm:text-sm md:text-lg lg:text-xl text-white">
         <button
           style={{
             border: "2px solid var(--Button-Stroke, #A265F0)",

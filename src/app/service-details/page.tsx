@@ -5,7 +5,7 @@ import ReadyToBuy from "@/components/serviceDatailsComponents/readyToBuyComponen
 export default function index() {
   return (
     <div>
-      <div className="lg:px-[52px] lg:py-[52px] flex flex-row flex-wrap">
+      <div className="lg:px-[52px] lg:py-[52px] flex justify-center flex-row flex-wrap">
         <ServiceImages></ServiceImages>
         <PricingDetails></PricingDetails>
       </div>

@@ -78,7 +78,7 @@ export default () => {
                     isActive
                       ? `${styles.activeSlide}`
                       : `${styles.nonActiveSlide}`
-                  } h-fit w-[150px] md:w-full lg:w-full rounded-[20px] my-[60px] py-[15px] md:py-[40px] lg:py-[80px] px-[10px] md:px-[20px] lg:px-[40px]`}
+                  } h-fit w-[190px] md:w-full lg:w-full rounded-[20px] my-[60px] py-[15px] md:py-[40px] lg:py-[80px] px-[10px] md:px-[20px] lg:px-[40px]`}
                 >
                   {/* <Image
                   src={"./bxs_qoute_left.svg"}
