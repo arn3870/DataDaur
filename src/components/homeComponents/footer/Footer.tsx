@@ -8,39 +8,82 @@ export default function HomeFooter() {
       <div className="flex flex-col md:flex-row lg:flex-row justify-between mb-[20px]">
         <div className="flex justify-start flex-col gap-[5px] md:gap-[20px] lg:gap-[20px] w-full md:w-[25%] lg:w-[15%] text-[#F2F2F2] lg:pr-[15px]">
           <Image src="/DataDaur.svg" alt="datadaur" width={132} height={40} />
-          <div className="text-[10px] md:text-[14px] lg:text-[14px] font-normal">
-            East Rd. CB1, Cambridge, United Kingdom
+          <div className="flex flex-col md:flex-col lg:flex-row gap-8">
+            <div className="flex flex-col">
+              <div className="text-[10px] md:text-[14px] lg:text-[14px] font-normal">
+                East Rd. CB1, Cambridge, United Kingdom
+              </div>
+              <Link href={"mailto:${business@datadaur.com}"}>
+                <div className="flex items-center">
+                  <Image
+                    src={smsIcon}
+                    alt="sms"
+                    width={24}
+                    height={24}
+                    className="w-[14px] h-[14px] md:w-[24px] lg:w-[24px] md:h-[24px] lg:h-[24px]"
+                  ></Image>
+                  <span className="ml-[2px] md:ml-[5px] lg:ml-[5px] text-[10px] md:text-[17px] lg:text-[17px]">
+                    Business@datadaur.com
+                  </span>
+                </div>
+              </Link>
+              <Link
+                href={
+                  "//api.whatsapp.com/send?phone=971552025311&text=Hi DataDaur"
+                }
+              >
+                <div className="flex items-center">
+                  <Image
+                    src={phoneIcon}
+                    alt="sms"
+                    width={24}
+                    height={24}
+                    className="w-[14px] h-[14px] md:w-[24px] lg:w-[24px] md:h-[24px] lg:h-[24px]"
+                  ></Image>
+                  <span className="ml-[2px] md:ml-[5px] lg:ml-[5px] text-[10px] md:text-[17px] lg:text-[17px]">
+                    +97 (155) 202-5311
+                  </span>
+                </div>
+              </Link>
+            </div>
+            <div className="flex flex-col">
+              <div className="text-[10px] md:text-[14px] lg:text-[14px] font-normal">
+                East Rd. CB1, Cambridge, United Kingdom
+              </div>
+              <Link href={"mailto:${business@datadaur.com}"}>
+                <div className="flex items-center">
+                  <Image
+                    src={smsIcon}
+                    alt="sms"
+                    width={24}
+                    height={24}
+                    className="w-[14px] h-[14px] md:w-[24px] lg:w-[24px] md:h-[24px] lg:h-[24px]"
+                  ></Image>
+                  <span className="ml-[2px] md:ml-[5px] lg:ml-[5px] text-[10px] md:text-[17px] lg:text-[17px]">
+                    Business@datadaur.com
+                  </span>
+                </div>
+              </Link>
+              <Link
+                href={
+                  "//api.whatsapp.com/send?phone=971552025311&text=Hi DataDaur"
+                }
+              >
+                <div className="flex items-center">
+                  <Image
+                    src={phoneIcon}
+                    alt="sms"
+                    width={24}
+                    height={24}
+                    className="w-[14px] h-[14px] md:w-[24px] lg:w-[24px] md:h-[24px] lg:h-[24px]"
+                  ></Image>
+                  <span className="ml-[2px] md:ml-[5px] lg:ml-[5px] text-[10px] md:text-[17px] lg:text-[17px]">
+                    +97 (155) 202-5311
+                  </span>
+                </div>
+              </Link>
+            </div>
           </div>
-          <Link href={"mailto:${business@datadaur.com}"}>
-            <div className="flex items-center">
-              <Image
-                src={smsIcon}
-                alt="sms"
-                width={24}
-                height={24}
-                className="w-[14px] h-[14px] md:w-[24px] lg:w-[24px] md:h-[24px] lg:h-[24px]"
-              ></Image>
-              <span className="ml-[2px] md:ml-[5px] lg:ml-[5px] text-[10px] md:text-[17px] lg:text-[17px]">
-                Business@datadaur.com
-              </span>
-            </div>
-          </Link>
-          <Link
-            href={"//api.whatsapp.com/send?phone=971552025311&text=Hi DataDaur"}
-          >
-            <div className="flex items-center">
-              <Image
-                src={phoneIcon}
-                alt="sms"
-                width={24}
-                height={24}
-                className="w-[14px] h-[14px] md:w-[24px] lg:w-[24px] md:h-[24px] lg:h-[24px]"
-              ></Image>
-              <span className="ml-[2px] md:ml-[5px] lg:ml-[5px] text-[10px] md:text-[17px] lg:text-[17px]">
-                +97 (155) 202-5311
-              </span>
-            </div>
-          </Link>
         </div>
         <div className="flex flex-col">
           <div className="flex flex-row text-[10px] md:text-[14px] lg:text-[14px] gap-x-[10px] md:gap-[10px] lg:gap-[10px] mb-[10px] md:mb-[30px] lg:mb-[30px]">
