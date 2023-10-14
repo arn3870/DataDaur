@@ -58,7 +58,7 @@ export default function HomeSlider() {
               }
               target="_blank"
             >
-              <div className="flex items-center ml-[0px] md:ml-[50px] lg:ml-[50px]">
+              <div className="flex items-center ml-[15px] md:ml-[50px] lg:ml-[50px]">
                 <Image
                   src={phoneIcon}
                   alt="sms"

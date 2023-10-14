@@ -8,7 +8,7 @@ export default function index() {
       <div
         className={` ${styles.contact_gradient2} absolute right-0 w-[300px] md:w-[500px] lg:w-[700px] h-[300px] md:h-[450px] lg:h-[450px]`}
       ></div>
-      <div className="text-center text-[28px] md:text-[60px] lg:text-[60px] py-[20px] md:py-[50px] lg:py-[80px] px-[20px] md:px-[150px] lg:px-[200px]">
+      <div className="text-center text-[28px] md:text-[60px] lg:text-[60px] py-[20px] md:py-[30px] lg:pt-[30px] px-[20px] md:px-[150px] lg:px-[200px] lg:mb-[-56px]">
         Signup
       </div>
       <div

@@ -14,7 +14,7 @@ export default function HomeFooter() {
             height={40}
             className="mb-[5px] mb:mb-[0px] lg:mb-[0px]"
           />
-          <div className="flex flex-col md:flex-col lg:flex-row gap-2 md:gap-8 lg:gap-8">
+          <div className="flex flex-col md:flex-col lg:flex-row gap-2 md:gap-8 lg:gap-[70px]">
             <div className="flex flex-col">
               <div className="text-[10px] md:text-[14px] lg:text-[14px] font-normal">
                 East Rd. CB1, Cambridge, United Kingdom
