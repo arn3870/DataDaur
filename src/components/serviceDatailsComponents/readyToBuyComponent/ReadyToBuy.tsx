@@ -1,5 +1,4 @@
-import Image from "next/image";
-
+import Link from "next/link";
 export default function ReadyToBuy() {
   return (
     <div className="relative bg-[#0F0F13] px-[20px] md:px-[20px] lg:px-[30px] py-[30px] md:py-[60px] lg:py-[100px]">
@@ -22,19 +21,21 @@ export default function ReadyToBuy() {
           our family of satisfied clients today!
         </div>
       </div>
-      <div className="flex justify-center mt-[50px] sm:text-sm md:text-lg lg:text-xl">
-        <button
-          style={{
-            border: "2px solid var(--Button-Stroke, #A265F0)",
-            background:
-              "var(--Button-Filled--Gradient, linear-gradient(89deg, #3E2567 0.92%, #140769 98.29%))",
-            boxShadow: "0px 4px 25px 0px #2F1C64",
-          }}
-          className="px-[10px] md:px-[10px] lg:px-[40px] py-[10px] md:py-[10px] lg:py-[15px] rounded-[20px] text-white"
-        >
-          Get Started
-        </button>
-      </div>
+      <Link href={"/login"}>
+        <div className="flex justify-center mt-[50px] sm:text-sm md:text-lg lg:text-xl">
+          <button
+            style={{
+              border: "2px solid var(--Button-Stroke, #A265F0)",
+              background:
+                "var(--Button-Filled--Gradient, linear-gradient(89deg, #3E2567 0.92%, #140769 98.29%))",
+              boxShadow: "0px 4px 25px 0px #2F1C64",
+            }}
+            className="px-[10px] md:px-[10px] lg:px-[40px] py-[10px] md:py-[10px] lg:py-[15px] rounded-[20px] text-white"
+          >
+            Get Started
+          </button>
+        </div>
+      </Link>
     </div>
   );
 }

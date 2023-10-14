@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function PricingDetails() {
   return (
     <div
@@ -29,17 +30,19 @@ export default function PricingDetails() {
       <div className="pb-[20px] md:pb-[45px] lg:pb-[60px] text-[14px] md:text-[18px] lg:text-[24px]">
         $250
       </div>
-      <button
-        className="px-[24px] py-[16px] w-full"
-        style={{
-          borderRadius: "20px",
-          border: "2px solid #A265F0",
-          background: "linear-gradient(89deg, #3E2567 0.92%, #140769 98.29%)",
-          boxShadow: "0px 4px 25px 0px #2F1C64",
-        }}
-      >
-        Buy this Gig
-      </button>
+      <Link href={"/login"}>
+        <button
+          className="px-[24px] py-[16px] w-full"
+          style={{
+            borderRadius: "20px",
+            border: "2px solid #A265F0",
+            background: "linear-gradient(89deg, #3E2567 0.92%, #140769 98.29%)",
+            boxShadow: "0px 4px 25px 0px #2F1C64",
+          }}
+        >
+          Buy this Gig
+        </button>
+      </Link>
     </div>
   );
 }
