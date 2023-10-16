@@ -32,7 +32,7 @@ export default function Header() {
             <Link href="/coming-soon">Blogs</Link>
             <div className="relative group">
               <div className="flex items-center cursor-pointer">Jobs</div>
-              <div className="absolute bg-[#14161A] top-full left-0 w-36 p-2 rounded-[10px] invisible group-hover:visible text-white">
+              <div className="absolute bg-[#14161A] top-full left-0 w-40 p-2 rounded-[10px] invisible group-hover:visible text-white">
                 <div className="cursor-pointer p-2 hover:bg-gray-100">
                   Open Positions
                 </div>

@@ -14,8 +14,8 @@ export default function HomeFooter() {
             height={40}
             className="mb-[5px] mb:mb-[0px] lg:mb-[0px]"
           />
-          <div className="flex flex-col md:flex-col lg:flex-row gap-2 md:gap-8 lg:gap-[70px]">
-            <div className="flex flex-col">
+          <div className="flex flex-col md:flex-col lg:flex-row gap-2 md:gap-8 lg:gap-[50px]">
+            <div className="flex flex-col gap-[5px]">
               <div className="text-[10px] md:text-[14px] lg:text-[14px] font-normal">
                 East Rd. CB1, Cambridge, United Kingdom
               </div>
@@ -53,7 +53,16 @@ export default function HomeFooter() {
                 </div>
               </Link>
             </div>
-            <div className="flex flex-col">
+            <div>
+              <div
+                className="hidden md:flex lg:flex w-[2px] h-[110px] "
+                style={{
+                  background:
+                    "linear-gradient(89deg, #3F1B79 0.92%, #11074F 98.29%)",
+                }}
+              ></div>
+            </div>
+            <div className="flex flex-col gap-[5px]">
               <div className="text-[10px] md:text-[14px] lg:text-[14px] font-normal">
                 East Rd. CB1, Cambridge, United Kingdom
               </div>
