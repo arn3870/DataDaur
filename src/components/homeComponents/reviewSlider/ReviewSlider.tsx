@@ -10,15 +10,16 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 
-// const paginationStyles = {
-//   padding: "60px", // Add padding to the pagination
-//   "--swiper-pagination-color": "#FFBA08",
-//   "--swiper-pagination-bullet-inactive-color": "#999999",
-//   "--swiper-pagination-bullet-inactive-opacity": "1",
-//   "--swiper-pagination-bullet-size": "16px",
-//   "--swiper-pagination-bullet-horizontal-gap": "6px",
-//   "--swiper-pagination-bullet-active-width": "40px",
-// };
+const paginationStyles: { [key: string]: string } = {
+  // padding: "60px", // Add padding to the pagination
+  // "--swiper-pagination-bullet-inactive-color": "#999999",
+  // "--swiper-pagination-bullet-inactive-opacity": "1",
+  // "--swiper-pagination-bullet-size": "16px",
+  "--swiper-pagination-bullet-horizontal-gap": "10px",
+  "--swiper-pagination-bullet-horizontal-margin": "10px",
+  // "--swiper-pagination-bullet-active-width": "80px",
+  "--swiper-pagination-bullet-width": "20px"
+};
 export default () => {
   const slides = [
     {
@@ -68,7 +69,7 @@ export default () => {
           loop={true} // Infinite loop
           onSwiper={(swiper) => console.log(swiper.slides)}
           onSlideChange={() => console.log("slide change")}
-          // style={paginationStyles}
+          style={paginationStyles}
         >
           {slides.map((slide, index) => (
             <SwiperSlide key={index}>
@@ -86,7 +87,7 @@ export default () => {
                   width={80}
                   height={80}
                 ></Image> */}
-                  <p className="text-[8px] md:text-[12px] lg:text-[16px] bg-transparent">
+                  <p className="text-[12px] md:text-[12px] lg:text-[16px] bg-transparent">
                     {slide.content}
                   </p>
                   <div className="flex justify-center mt-[30px]">

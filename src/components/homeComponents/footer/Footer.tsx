@@ -103,14 +103,14 @@ export default function HomeFooter() {
           </div>
         </div>
         <div className="flex flex-col">
-          <div className="flex flex-row justify-between text-[12px] md:text-[14px] lg:text-[14px] gap-x-[10px] md:gap-[10px] lg:gap-[10px] mb-[10px] md:mb-[30px] lg:mb-[30px] text-white">
-            <Link href={"/terms&conditions"}>
+          <div className="flex flex-row justify-between text-[12px] md:text-[14px] lg:text-[14px] md:gap-[10px] lg:gap-[10px] mb-[10px] md:mb-[30px] lg:mb-[30px] text-white">
+            <Link href={"/terms&conditions px-[10px]"}>
               <div>Terms & Conditions</div>
             </Link>
-            <Link href={"/privacy-policy"}>
+            <Link href={"/privacy-policy px-[10px]"}>
               <div>Privacy Policy</div>
             </Link>
-            <Link href={"/affiliate-program"}>
+            <Link href={"/affiliate-program px-[10px]"}>
               <div>Affiliate Program</div>
             </Link>
           </div>
