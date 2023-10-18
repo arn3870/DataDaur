@@ -49,10 +49,10 @@ export default function ExploreComponent({
                 ></Image>
               </div>
               <div className="mt-[10px] md:mt-[30px] lg:mt-[30px]">
-                <h1 className="text-[10px] md:text-[25px] lg:text-[25px] ">
+                <h1 className="text-[14px] md:text-[25px] lg:text-[25px] ">
                   {card.title}
                 </h1>
-                <p className=" text-[8px] md:text-[16px] lg:text-[18px]">
+                <p className=" text-[12px] md:text-[16px] lg:text-[18px]">
                   {card.description}
                 </p>
                 <div className="flex mt-[5px] md:mt-[50px] lg:mt-[50px] text-sm md:text-lg lg:text-xl">
@@ -64,7 +64,7 @@ export default function ExploreComponent({
                           "var(--Button-Filled--Gradient, linear-gradient(89deg, #3E2567 0.92%, #140769 98.29%))",
                         boxShadow: "0px 4px 25px 0px #2F1C64",
                       }}
-                      className="px-[5px] md:px-[10px] lg:px-[40px] py-[5px] md:py-[10px] lg:py-[15px] text-[10px] md:text-[18px] lg:text-[18px] rounded-[20px] text-white"
+                      className="px-[5px] md:px-[10px] lg:px-[40px] py-[5px] md:py-[10px] lg:py-[15px] text-[12px] md:text-[18px] lg:text-[18px] rounded-[20px] text-white"
                     >
                       {card.buttonLabel}
                     </button>

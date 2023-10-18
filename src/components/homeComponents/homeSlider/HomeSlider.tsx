@@ -47,7 +47,7 @@ export default function HomeSlider() {
                   height={24}
                   className="w-[14px] h-[14px] md:w-[24px] lg:w-[24px] md:h-[24px] lg:h-[24px]"
                 ></Image>
-                <span className="text-[10px] md:text-[18px] lg:text-[18px] ml-[5px] md:ml-[20px] lg:ml-[20px]">
+                <span className="text-[12px] md:text-[18px] lg:text-[18px] ml-[5px] md:ml-[20px] lg:ml-[20px]">
                   Business@datadaur.com
                 </span>
               </div>
@@ -66,7 +66,7 @@ export default function HomeSlider() {
                   height={24}
                   className="w-[14px] h-[14px] md:w-[24px] lg:w-[24px] md:h-[24px] lg:h-[24px]"
                 ></Image>
-                <span className="text-[10px] md:text-[18px] lg:text-[18px] ml-[5px] md:ml-[20px] lg:ml-[20px]">
+                <span className="text-[12px] md:text-[18px] lg:text-[18px] ml-[5px] md:ml-[20px] lg:ml-[20px]">
                   +97 (155) 202-5311
                 </span>
               </div>
@@ -82,7 +82,7 @@ export default function HomeSlider() {
               height={60}
               className="w-[30px] h-[30px] md:w-[60px] lg:w-[60px] md:h-[60px] lg:h-[60px]"
             ></Image>
-            <span className="mt-[8px] lg:mt-[30px] md:mt-[30px] text-[8px] md:text-[18px] lg:text-[24px]">
+            <span className="mt-[8px] lg:mt-[30px] md:mt-[30px] text-[12px] md:text-[18px] lg:text-[24px]">
               Mobile Apps
             </span>
           </div>
@@ -95,7 +95,7 @@ export default function HomeSlider() {
               height={60}
               className="w-[30px] h-[30px] md:w-[60px] lg:w-[60px] md:h-[60px] lg:h-[60px]"
             ></Image>
-            <span className="mt-[8px] lg:mt-[30px] md:mt-[30px] text-[8px] md:text-[18px] lg:text-[24px]">
+            <span className="mt-[8px] lg:mt-[30px] md:mt-[30px] text-[12px] md:text-[18px] lg:text-[24px]">
               Websites
             </span>
           </div>
@@ -108,7 +108,7 @@ export default function HomeSlider() {
               height={60}
               className="w-[30px] h-[30px] md:w-[60px] lg:w-[60px] md:h-[60px] lg:h-[60px]"
             ></Image>
-            <span className="mt-[8px] lg:mt-[30px] md:mt-[30px] text-[8px] md:text-[18px] lg:text-[24px]">
+            <span className="mt-[8px] lg:mt-[30px] md:mt-[30px] text-[12px] md:text-[18px] lg:text-[24px]">
               Web Apps
             </span>
           </div>
@@ -121,7 +121,7 @@ export default function HomeSlider() {
               height={60}
               className="w-[30px] h-[30px] md:w-[60px] lg:w-[60px] md:h-[60px] lg:h-[60px]"
             ></Image>
-            <span className="mt-[8px] lg:mt-[30px] md:mt-[30px] text-[8px] md:text-[18px] lg:text-[24px]">
+            <span className="mt-[8px] lg:mt-[30px] md:mt-[30px] text-[12px] md:text-[18px] lg:text-[24px]">
               Design Systems
             </span>
           </div>
@@ -134,7 +134,7 @@ export default function HomeSlider() {
               height={60}
               className="w-[30px] h-[30px] md:w-[60px] lg:w-[60px] md:h-[60px] lg:h-[60px]"
             ></Image>
-            <span className="mt-[8px] lg:mt-[30px] md:mt-[30px] text-[8px] md:text-[18px] lg:text-[24px]">
+            <span className="mt-[8px] lg:mt-[30px] md:mt-[30px] text-[12px] md:text-[18px] lg:text-[24px]">
               SAAS
             </span>
           </div>

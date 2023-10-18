@@ -39,7 +39,7 @@ export default function Testimonials({
               border: "1px solid var(--Button-Stroke, #A265F0)",
             }}
           >
-            <p className="text-[10px] md:text-[12px] lg:text-[16px]">
+            <p className="text-[12px] md:text-[12px] lg:text-[16px]">
               {slide.content}
             </p>
             <div className="flex justify-center mt-[30px]">

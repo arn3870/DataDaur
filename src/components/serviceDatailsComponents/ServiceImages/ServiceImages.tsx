@@ -10,7 +10,7 @@ export default function ServiceImages() {
       <div className="text-[20px] md:text-[36px] lg:text-[36px]">
         Build your website in WordPress
       </div>
-      <div className="text-[8px] md:text-[16px] lg:text-[18px] pb-[10px] w-[90%]">
+      <div className="text-[12px] md:text-[16px] lg:text-[18px] pb-[10px] w-[90%]">
         Lorem ipsum dolor sit amet consectetur. Sollicitudin sem ac consectetur
         nulla volutpat libero tortor nam tristique.
       </div>
@@ -25,7 +25,7 @@ export default function ServiceImages() {
       <div className="text-[20px] md:text-[36px] lg:text-[36px]">
         Service Description
       </div>
-      <div className="text-[8px] md:text-[16px] lg:text-[18px] pb-[10px] w-[90%]">
+      <div className="text-[12px] md:text-[16px] lg:text-[18px] pb-[10px] w-[90%]">
         <span>
           Lorem ipsum dolor sit amet consectetur. Tempus nibh egestas at ut nec
           condimentum vulputate id sed. Ut ullamcorper aenean tincidunt lacinia.

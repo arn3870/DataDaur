@@ -16,7 +16,7 @@ export default function HomeFooter() {
           />
           <div className="flex flex-col md:flex-col lg:flex-row gap-2 md:gap-8 lg:gap-[50px]">
             <div className="flex flex-col gap-[5px]">
-              <div className="text-[10px] md:text-[14px] lg:text-[14px] font-normal">
+              <div className="text-[12px] md:text-[14px] lg:text-[14px] font-normal">
                 East Rd. CB1, Cambridge, United Kingdom
               </div>
               <Link href={"mailto:${business@datadaur.com}"}>
@@ -28,7 +28,7 @@ export default function HomeFooter() {
                     height={24}
                     className="w-[14px] h-[14px] md:w-[24px] lg:w-[24px] md:h-[24px] lg:h-[24px]"
                   ></Image>
-                  <span className="ml-[2px] md:ml-[5px] lg:ml-[5px] text-[10px] md:text-[17px] lg:text-[17px]">
+                  <span className="ml-[2px] md:ml-[5px] lg:ml-[5px] text-[12px] md:text-[17px] lg:text-[17px]">
                     Business@datadaur.com
                   </span>
                 </div>
@@ -47,7 +47,7 @@ export default function HomeFooter() {
                     height={24}
                     className="w-[14px] h-[14px] md:w-[24px] lg:w-[24px] md:h-[24px] lg:h-[24px]"
                   ></Image>
-                  <span className="ml-[2px] md:ml-[5px] lg:ml-[5px] text-[10px] md:text-[17px] lg:text-[17px]">
+                  <span className="ml-[2px] md:ml-[5px] lg:ml-[5px] text-[12px] md:text-[17px] lg:text-[17px]">
                     +97 (155) 202-5311
                   </span>
                 </div>
@@ -63,7 +63,7 @@ export default function HomeFooter() {
               ></div>
             </div>
             <div className="flex flex-col gap-[5px]">
-              <div className="text-[10px] md:text-[14px] lg:text-[14px] font-normal">
+              <div className="text-[12px] md:text-[14px] lg:text-[14px] font-normal">
                 East Rd. CB1, Cambridge, United Kingdom
               </div>
               <Link href={"mailto:${business@datadaur.com}"}>
@@ -75,7 +75,7 @@ export default function HomeFooter() {
                     height={24}
                     className="w-[14px] h-[14px] md:w-[24px] lg:w-[24px] md:h-[24px] lg:h-[24px]"
                   ></Image>
-                  <span className="ml-[2px] md:ml-[5px] lg:ml-[5px] text-[10px] md:text-[17px] lg:text-[17px]">
+                  <span className="ml-[2px] md:ml-[5px] lg:ml-[5px] text-[12px] md:text-[17px] lg:text-[17px]">
                     Business@datadaur.com
                   </span>
                 </div>
@@ -94,7 +94,7 @@ export default function HomeFooter() {
                     height={24}
                     className="w-[14px] h-[14px] md:w-[24px] lg:w-[24px] md:h-[24px] lg:h-[24px]"
                   ></Image>
-                  <span className="ml-[2px] md:ml-[5px] lg:ml-[5px] text-[10px] md:text-[17px] lg:text-[17px]">
+                  <span className="ml-[2px] md:ml-[5px] lg:ml-[5px] text-[12px] md:text-[17px] lg:text-[17px]">
                     +97 (155) 202-5311
                   </span>
                 </div>
@@ -103,7 +103,7 @@ export default function HomeFooter() {
           </div>
         </div>
         <div className="flex flex-col">
-          <div className="flex flex-row justify-between text-[10px] md:text-[14px] lg:text-[14px] gap-x-[10px] md:gap-[10px] lg:gap-[10px] mb-[10px] md:mb-[30px] lg:mb-[30px] text-white">
+          <div className="flex flex-row justify-between text-[12px] md:text-[14px] lg:text-[14px] gap-x-[10px] md:gap-[10px] lg:gap-[10px] mb-[10px] md:mb-[30px] lg:mb-[30px] text-white">
             <Link href={"/terms&conditions"}>
               <div>Terms & Conditions</div>
             </Link>
@@ -206,7 +206,7 @@ export default function HomeFooter() {
           </div>
         </div>
       </div>
-      <div className="text-center text-[10px] md:text-[12px] lg:text-[12px] text-white">
+      <div className="text-center text-[12px] md:text-[12px] lg:text-[12px] text-white">
         @ Datadaur 2023. All rights reserved.
       </div>
     </div>
