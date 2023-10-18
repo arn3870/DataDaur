@@ -45,7 +45,7 @@ export default function Header() {
           </div>
         </div>
         <div className="lg:hidden md:hidden relative">
-          <button onClick={toggleMenu}>
+          <button onClick={toggleMenu} aria-label="menu">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-6 w-6"
@@ -72,7 +72,7 @@ export default function Header() {
           <Link href="/offers">Offers</Link>
           <Link href="/testimonials">Testimonials</Link>
           <Link href="/">Blogs</Link>
-          <div onClick={toggleJobMenu} >
+          <div onClick={toggleJobMenu}>
             <div> Jobs</div>
             {isJobMenuOpen && (
               <div>

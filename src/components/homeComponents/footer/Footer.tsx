@@ -116,7 +116,7 @@ export default function HomeFooter() {
           </div>
           <div className="flex flex-row justify-between md:justify-end lg:justify-end gap-5">
             <div className="w-[16px] md:w-[24px] lg:w-[24px] h-[16px] md:h-[24px] lg:h-[24px]">
-              <Link href={"/"} target="_blank">
+              <Link href={"/"} target="_blank" aria-label="threads">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -132,7 +132,7 @@ export default function HomeFooter() {
               </Link>
             </div>
             <div className="w-[16px] md:w-[24px] lg:w-[24px] h-[16px] md:h-[24px] lg:h-[24px]">
-              <Link href={"/"} target="_blank">
+              <Link href={"/"} target="_blank" aria-label="Instagram">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -148,7 +148,11 @@ export default function HomeFooter() {
               </Link>
             </div>
             <div className="w-[16px] md:w-[24px] lg:w-[24px] h-[16px] md:h-[24px] lg:h-[24px]">
-              <Link href={"https://twitter.com/DataDaur"} target="_blank">
+              <Link
+                href={"https://twitter.com/DataDaur"}
+                target="_blank"
+                aria-label="twitter"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -164,7 +168,7 @@ export default function HomeFooter() {
               </Link>
             </div>
             <div className="w-[16px] md:w-[24px] lg:w-[24px] h-[16px] md:h-[24px] lg:h-[24px]">
-              <Link href={"/"} target="_blank">
+              <Link href={"/"} target="_blank" aria-label="facebook">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -183,6 +187,7 @@ export default function HomeFooter() {
               <Link
                 href={"https://www.linkedin.com/company/datadaur/"}
                 target="_blank"
+                aria-label="Linkedin"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
