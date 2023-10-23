@@ -1,4 +1,3 @@
-import styles from "./contactForm.module.css";
 import gradientStyle from "../styles/gradients.module.css";
 export default function ContactForm() {
   return (
