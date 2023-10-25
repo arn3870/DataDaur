@@ -1,5 +1,14 @@
+"use client";
+import { usePathname } from "next/navigation";
+
 import gradientStyle from "../styles/gradients.module.css";
-export default function ContactForm() {
+
+interface Props {
+  title: string;
+}
+
+export default function ContactForm({ title }: Props) {
+  const pathname = usePathname();
   return (
     <div className="text-white">
       <div
@@ -9,7 +18,7 @@ export default function ContactForm() {
         className={` ${gradientStyle.contact_gradient2} absolute right-0 w-[300px] md:w-[500px] lg:w-[700px] h-[300px] md:h-[450px] lg:h-[450px]`}
       ></div>
       <div className="text-center text-[28px] md:text-[60px] lg:text-[60px] py-[20px] md:py-[50px] lg:py-[80px] px-[20px] md:px-[150px] lg:px-[200px]">
-        Ready to do business with us? Let s Get Started!
+        {title}
       </div>
       <div
         className="relative w-full flex justify-center items-center h-full"
@@ -78,8 +87,9 @@ export default function ContactForm() {
             <div
               className=" w-[100%] h-[4px] mt-[20px] md:mt-[50px] lg:mt-[100px]"
               style={{
-                background:
-                  "linear-gradient(89deg, #3F1B79 0.92%, #11074F 98.29%)",
+                background: !pathname.includes("careers")
+                  ? "linear-gradient(89deg, #3F1B79 0.92%, #11074F 98.29%)"
+                  : "transparent",
               }}
             ></div>
           </form>

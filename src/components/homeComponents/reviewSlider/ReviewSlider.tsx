@@ -18,7 +18,8 @@ const paginationStyles: { [key: string]: string } = {
   "--swiper-pagination-bullet-horizontal-gap": "10px",
   "--swiper-pagination-bullet-horizontal-margin": "10px",
   // "--swiper-pagination-bullet-active-width": "80px",
-  "--swiper-pagination-bullet-width": "20px"
+  "--swiper-pagination-bullet-width": "16px",
+  "--swiper-pagination-bullet-height": "16px",
 };
 export default () => {
   const slides = [
