@@ -1,5 +1,6 @@
 import Image from "next/image";
 import styles from "../styles/gradients.module.css";
+import React from "react";
 
 type CardContent = {
   content: string;
@@ -24,7 +25,7 @@ export default function Testimonials({
         className={` ${styles.contact_gradient2} absolute right-0 w-[200px] md:w-[400px] lg:w-[700px] h-[150px] md:h-[250px] lg:h-[450px]`}
       ></div>
       <div className="flex justify-center">
-        <div className="text-center text-[#E4E4E4] text-[28px] md:text-[48px] lg:text-[48px] lg:w-[50%]">
+        <div className="text-center text-[#E4E4E4] font-bold text-[28px] md:text-[48px] lg:text-[48px] lg:w-[50%]">
           Read what our customers say about us
         </div>
       </div>
@@ -42,7 +43,7 @@ export default function Testimonials({
             <p className="text-[12px] md:text-[12px] lg:text-[16px]">
               {slide.content}
             </p>
-            <div className="flex justify-center mt-[30px]">
+            <div className="flex mt-[30px]">
               <div className="flex flex-row items-center">
                 <div className="flex justify-center">
                   <Image
@@ -61,6 +62,19 @@ export default function Testimonials({
             </div>
           </div>
         ))}
+      </div>
+      <div className="text-center">
+        <button
+          style={{
+            border: "2px solid var(--Button-Stroke, #A265F0)",
+            background:
+              "var(--Button-Filled--Gradient, linear-gradient(89deg, #3E2567 0.92%, #140769 98.29%))",
+            boxShadow: "0px 4px 25px 0px #2F1C64",
+          }}
+          className="px-[10px] md:px-[10px] lg:px-[40px] py-[4px] md:py-[10px] lg:py-[15px] rounded-[20px] text-white color-white mt-8"
+        >
+          Load More
+        </button>
       </div>
     </div>
   );

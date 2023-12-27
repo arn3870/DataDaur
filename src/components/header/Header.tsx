@@ -23,13 +23,13 @@ export default function Header() {
           <Image src="/DataDaur.svg" alt="datadaur" width={132} height={40} />
         </Link>
         <div className="hidden md:flex md:justify-start w-[80%] space-x-4">
-          <div className="hidden md:flex md:justify-between w-[80%] space-x-4 relative">
+          <div className="hidden md:flex md:justify-between w-[80%] space-x-4 relative text-white mx-auto">
             <Link href="/">Home</Link>
             <Link href="/portfolio">Portfolio</Link>
             <Link href="/coming-soon">About</Link>
             <Link href="/offers">Offers</Link>
             <Link href="/testimonials">Testimonials</Link>
-            <Link href="/coming-soon">Blogs</Link>
+            <Link href="/blogs">Blogs</Link>
             <div className="relative group">
               <div className="flex items-center cursor-pointer">Jobs</div>
               <div className="absolute bg-[#14161A] top-full left-0 w-40 p-2 rounded-[10px] invisible group-hover:visible text-white">
